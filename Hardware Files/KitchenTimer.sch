@@ -35,85 +35,85 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 61523E55
-P 1750 5900
+P 8000 2350
 AR Path="/6151229C/61523E55" Ref="R?"  Part="1" 
 AR Path="/61523E55" Ref="R?"  Part="1" 
-F 0 "R?" H 1820 5946 50  0000 L CNN
-F 1 "10k" H 1820 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1680 5900 50  0001 C CNN
-F 3 "~" H 1750 5900 50  0001 C CNN
-F 4 "RC1206JR-0710KL" H 1750 5900 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 1206 Resistor" H 1750 5900 50  0001 C CNN "Description"
-F 6 "C136460" H 1750 5900 50  0001 C CNN "LCSC Order Number"
-F 7 " YAGEO" H 1750 5900 50  0001 C CNN "Manufacturer"
-	1    1750 5900
+F 0 "R?" H 8070 2396 50  0000 L CNN
+F 1 "10k" H 8070 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7930 2350 50  0001 C CNN
+F 3 "~" H 8000 2350 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 8000 2350 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 8000 2350 50  0001 C CNN "Description"
+F 6 "C136460" H 8000 2350 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 8000 2350 50  0001 C CNN "Manufacturer"
+	1    8000 2350
 	-1   0    0    1   
 $EndComp
 $Comp
 L 74xx:74HC595 U?
 U 1 1 61523E60
-P 2250 5450
+P 8500 1900
 AR Path="/6151229C/61523E60" Ref="U?"  Part="1" 
 AR Path="/61523E60" Ref="U?"  Part="1" 
-F 0 "U?" H 2550 6125 50  0000 C CNN
-F 1 "74HC595" H 2550 6025 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2250 5450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2250 5450 50  0001 C CNN
-F 4 "74HC595D,118" H 2250 5450 50  0001 C CNN "Manufacturer PN"
-F 5 "Shift Register SOIC 16" H 2250 5450 50  0001 C CNN "Description"
-F 6 "C5947" H 2250 5450 50  0001 C CNN "LCSC Order Number"
-F 7 "Nexperia" H 2250 5450 50  0001 C CNN "Manufacturer"
-	1    2250 5450
+F 0 "U?" H 8800 2575 50  0000 C CNN
+F 1 "74HC595" H 8800 2475 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8500 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8500 1900 50  0001 C CNN
+F 4 "74HC595D,118" H 8500 1900 50  0001 C CNN "Manufacturer PN"
+F 5 "Shift Register SOIC 16" H 8500 1900 50  0001 C CNN "Description"
+F 6 "C5947" H 8500 1900 50  0001 C CNN "LCSC Order Number"
+F 7 "Nexperia" H 8500 1900 50  0001 C CNN "Manufacturer"
+	1    8500 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 61539120
-P 2250 4750
+P 8500 1200
 AR Path="/6151229C/61539120" Ref="#PWR?"  Part="1" 
 AR Path="/61539120" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 4600 50  0001 C CNN
-F 1 "+3.3V" H 2265 4923 50  0000 C CNN
-F 2 "" H 2250 4750 50  0001 C CNN
-F 3 "" H 2250 4750 50  0001 C CNN
-	1    2250 4750
+F 0 "#PWR?" H 8500 1050 50  0001 C CNN
+F 1 "+3.3V" H 8515 1373 50  0000 C CNN
+F 2 "" H 8500 1200 50  0001 C CNN
+F 3 "" H 8500 1200 50  0001 C CNN
+	1    8500 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 4750 2250 4850
+	8500 1200 8500 1300
 Wire Wire Line
-	2650 5050 2950 5050
+	8900 1500 9200 1500
 Wire Wire Line
-	2650 5150 2950 5150
+	8900 1600 9200 1600
 Wire Wire Line
-	2650 5250 2950 5250
+	8900 1700 9200 1700
 Wire Wire Line
-	2650 5350 2950 5350
+	8900 1800 9200 1800
 Wire Wire Line
-	2650 5450 2950 5450
+	8900 1900 9200 1900
 Wire Wire Line
-	2650 5550 2950 5550
+	8900 2000 9200 2000
 Wire Wire Line
-	2650 5650 2950 5650
+	8900 2100 9200 2100
 Wire Wire Line
-	2650 5750 2950 5750
+	8900 2200 9200 2200
 Wire Wire Line
-	2650 5950 2950 5950
-Text GLabel 2950 5150 2    50   Input ~ 0
+	8900 2400 9200 2400
+Text GLabel 9200 1600 2    50   Input ~ 0
 Char_2
-Text GLabel 2950 5250 2    50   Input ~ 0
+Text GLabel 9200 1700 2    50   Input ~ 0
 Char_3
-Text GLabel 2950 5350 2    50   Input ~ 0
+Text GLabel 9200 1800 2    50   Input ~ 0
 Char_4
-Text GLabel 2950 5450 2    50   Input ~ 0
+Text GLabel 9200 1900 2    50   Input ~ 0
 LED_A
-Text GLabel 2950 5550 2    50   Input ~ 0
+Text GLabel 9200 2000 2    50   Input ~ 0
 LED_B
-Text GLabel 2950 5650 2    50   Input ~ 0
+Text GLabel 9200 2100 2    50   Input ~ 0
 LED_C
-Text GLabel 2950 5750 2    50   Input ~ 0
+Text GLabel 9200 2200 2    50   Input ~ 0
 LED_D
-Text GLabel 2950 5950 2    50   Input ~ 0
+Text GLabel 9200 2400 2    50   Input ~ 0
 ShiftRegister_1_overflow
 $Comp
 L 74xx:74HC595 U?
@@ -186,24 +186,24 @@ ShiftRegister_1_overflow
 Wire Wire Line
 	8650 5150 8800 5150
 Wire Wire Line
-	1850 5050 1700 5050
+	8100 1500 7950 1500
 Wire Wire Line
-	1850 5250 1700 5250
+	8100 1700 7950 1700
 Wire Wire Line
-	1850 5350 1700 5350
+	8100 1800 7950 1800
 Wire Wire Line
-	1850 5550 1700 5550
+	8100 2000 7950 2000
 Wire Wire Line
-	1850 5650 1750 5650
-Text GLabel 1700 5050 0    50   Input ~ 0
+	8100 2100 8000 2100
+Text GLabel 7950 1500 0    50   Input ~ 0
 Data
-Text GLabel 1700 5250 0    50   Input ~ 0
+Text GLabel 7950 1700 0    50   Input ~ 0
 Clock
-Text GLabel 1700 5350 0    50   Input ~ 0
+Text GLabel 7950 1800 0    50   Input ~ 0
 !Clear
-Text GLabel 1700 5550 0    50   Input ~ 0
+Text GLabel 7950 2000 0    50   Input ~ 0
 Data
-Text GLabel 1700 5650 0    50   Input ~ 0
+Text GLabel 7950 2100 0    50   Input ~ 0
 ShiftRegister_Output_Enable
 Text GLabel 8650 5350 0    50   Input ~ 0
 Clock
@@ -222,30 +222,30 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 6155931B
-P 2250 6350
+P 8500 2800
 AR Path="/6151229C/6155931B" Ref="#PWR?"  Part="1" 
 AR Path="/6155931B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 6100 50  0001 C CNN
-F 1 "GND" H 2255 6177 50  0000 C CNN
-F 2 "" H 2250 6350 50  0001 C CNN
-F 3 "" H 2250 6350 50  0001 C CNN
-	1    2250 6350
+F 0 "#PWR?" H 8500 2550 50  0001 C CNN
+F 1 "GND" H 8505 2627 50  0000 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 6150 2250 6250
+	8500 2600 8500 2700
 Wire Wire Line
-	1750 5750 1750 5650
-Connection ~ 1750 5650
+	8000 2200 8000 2100
+Connection ~ 8000 2100
 Wire Wire Line
-	1750 5650 1700 5650
+	8000 2100 7950 2100
 Wire Wire Line
-	2250 6250 1750 6250
+	8500 2700 8000 2700
 Wire Wire Line
-	1750 6250 1750 6050
-Connection ~ 2250 6250
+	8000 2700 8000 2500
+Connection ~ 8500 2700
 Wire Wire Line
-	2250 6250 2250 6350
+	8500 2700 8500 2800
 $Comp
 L Device:R R?
 U 1 1 6156E529
@@ -424,7 +424,7 @@ Wire Wire Line
 	3350 2400 3500 2400
 Wire Wire Line
 	3500 2200 3350 2200
-Text GLabel 2950 5050 2    50   Input ~ 0
+Text GLabel 9200 1500 2    50   Input ~ 0
 Char_1
 Text GLabel 13000 600  0    50   Input ~ 0
 Char_1
@@ -733,4 +733,210 @@ Text GLabel 13000 3600 0    50   Input ~ 0
 Char_4
 Text GLabel 13000 4600 0    50   Input ~ 0
 LED_(':')
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6164E18A
+P 1675 4825
+F 0 "#PWR?" H 1675 4675 50  0001 C CNN
+F 1 "+3.3V" H 1690 4998 50  0000 C CNN
+F 2 "" H 1675 4825 50  0001 C CNN
+F 3 "" H 1675 4825 50  0001 C CNN
+	1    1675 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 4825 1675 4925
+Wire Wire Line
+	1675 4925 1825 4925
+Text Label 3425 5125 2    50   ~ 0
+CLOCK
+Text Label 3400 5725 2    50   ~ 0
+DATA
+Text Label 3425 5225 2    50   ~ 0
+LATCH
+Text Label 3425 5325 2    50   ~ 0
+CLEAR
+Text Label 3425 5425 2    50   ~ 0
+OUTPUT_ENABLE
+Wire Wire Line
+	2775 5425 3425 5425
+Wire Wire Line
+	2775 5325 3425 5325
+Wire Wire Line
+	2775 5225 3425 5225
+Wire Wire Line
+	2775 5125 3425 5125
+Text Label 3425 5525 2    50   ~ 0
+SW_1
+Wire Wire Line
+	2775 5525 3425 5525
+Wire Wire Line
+	1725 5975 1825 5975
+Wire Wire Line
+	1825 5875 1725 5875
+Wire Wire Line
+	1725 5875 1725 5975
+Wire Wire Line
+	1825 5775 1725 5775
+Wire Wire Line
+	1725 5775 1725 5875
+Connection ~ 1725 5875
+Wire Wire Line
+	1825 5675 1725 5675
+Wire Wire Line
+	1725 5675 1725 5775
+Connection ~ 1725 5775
+Wire Wire Line
+	3425 4925 2775 4925
+Text Label 3425 4925 2    50   ~ 0
+BOOT
+Wire Wire Line
+	1825 5225 1325 5225
+Wire Wire Line
+	1825 5325 1325 5325
+Text Label 1325 5225 0    50   ~ 0
+ESP_RX
+Text Label 1325 5325 0    50   ~ 0
+ESP_TX
+Text Label 1325 5025 0    50   ~ 0
+ESP_EN
+Wire Wire Line
+	1325 5025 1825 5025
+$Comp
+L Device:C_Small C?
+U 1 1 6164E1B2
+P 875 5825
+F 0 "C?" H 967 5871 50  0000 L CNN
+F 1 "10uF" H 967 5780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 875 5825 50  0001 C CNN
+F 3 "~" H 875 5825 50  0001 C CNN
+F 4 "CL31B106KAHNNNE" H 875 5825 50  0001 C CNN "Manufacturer PN"
+F 5 "10uF 1206 Capacitor" H 875 5825 50  0001 C CNN "Description"
+F 6 "C14860" H 875 5825 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 875 5825 50  0001 C CNN "Manufacturer"
+	1    875  5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6164E1BC
+P 1275 5825
+F 0 "C?" H 1367 5871 50  0000 L CNN
+F 1 "1uF" H 1367 5780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1275 5825 50  0001 C CNN
+F 3 "~" H 1275 5825 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 1275 5825 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 1275 5825 50  0001 C CNN "Description"
+F 6 "C13832" H 1275 5825 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 1275 5825 50  0001 C CNN "Manufacturer"
+	1    1275 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  5925 875  5975
+Wire Wire Line
+	1275 5975 1275 5925
+Wire Wire Line
+	875  5725 875  5675
+Wire Wire Line
+	1275 5675 1275 5725
+$Comp
+L power:GND #PWR?
+U 1 1 6164E1C6
+P 1275 6075
+F 0 "#PWR?" H 1275 5825 50  0001 C CNN
+F 1 "GND" H 1280 5902 50  0000 C CNN
+F 2 "" H 1275 6075 50  0001 C CNN
+F 3 "" H 1275 6075 50  0001 C CNN
+	1    1275 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 6075 1275 5975
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6164E1CD
+P 875 5575
+F 0 "#PWR?" H 875 5425 50  0001 C CNN
+F 1 "+3.3V" H 890 5748 50  0000 C CNN
+F 2 "" H 875 5575 50  0001 C CNN
+F 3 "" H 875 5575 50  0001 C CNN
+	1    875  5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  5575 875  5675
+Connection ~ 875  5675
+Wire Wire Line
+	875  5675 1275 5675
+Connection ~ 1275 5975
+Wire Wire Line
+	875  5975 1275 5975
+$Comp
+L Device:R R?
+U 1 1 6164E1DC
+P 3775 5775
+F 0 "R?" H 3845 5821 50  0000 L CNN
+F 1 "10k" H 3845 5730 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3705 5775 50  0001 C CNN
+F 3 "~" H 3775 5775 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 3775 5775 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 3775 5775 50  0001 C CNN "Description"
+F 6 "C136460" H 3775 5775 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 3775 5775 50  0001 C CNN "Manufacturer"
+	1    3775 5775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6164E1E2
+P 3775 6075
+F 0 "#PWR?" H 3775 5825 50  0001 C CNN
+F 1 "GND" H 3780 5902 50  0000 C CNN
+F 2 "" H 3775 6075 50  0001 C CNN
+F 3 "" H 3775 6075 50  0001 C CNN
+	1    3775 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 6075 3775 5925
+Wire Wire Line
+	1325 5125 1825 5125
+Text Label 1325 5125 0    50   ~ 0
+RST
+Connection ~ 1725 5975
+Wire Wire Line
+	1725 6125 1725 5975
+$Comp
+L power:GND #PWR?
+U 1 1 6164E1ED
+P 1725 6125
+F 0 "#PWR?" H 1725 5875 50  0001 C CNN
+F 1 "GND" H 1730 5952 50  0000 C CNN
+F 2 "" H 1725 6125 50  0001 C CNN
+F 3 "" H 1725 6125 50  0001 C CNN
+	1    1725 6125
+	1    0    0    -1  
+$EndComp
+Text Notes 1850 4450 0    100  ~ 20
+ESP8266 MCU
+Wire Wire Line
+	2775 5725 3400 5725
+$Comp
+L .[--Stasis.Symbol.Library:ESP-WROOM-02D U?
+U 1 1 6164E1F9
+P 1925 6075
+F 0 "U?" H 2300 7490 50  0000 C CNN
+F 1 "ESP-WROOM-02D" H 2300 7399 50  0000 C CNN
+F 2 "8Bit_WiFi_Visualizer_Footprints:ESP-WROOM-02D" H 1975 7375 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02u_esp-wroom-02d_datasheet_en.pdf" H 1975 7375 50  0001 C CNN
+F 4 "ESP-WROOM-02D" H 1925 6075 50  0001 C CNN "Manufacturer PN"
+F 5 "ESP 8266 SMD Module" H 1925 6075 50  0001 C CNN "Description"
+F 6 "C473007" H 1925 6075 50  0001 C CNN "LCSC Order Number"
+F 7 "	Espressif Systems" H 1925 6075 50  0001 C CNN "Manufacturer"
+	1    1925 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 5625 3775 5625
 $EndSCHEMATC
