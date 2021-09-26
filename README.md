@@ -1,4 +1,4 @@
-# {ProjectName}
+# KitchenTimer
 
 Welcome to the source files!
 
