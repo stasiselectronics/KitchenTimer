@@ -13,4 +13,1710 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:R R?
+U 1 1 62B5C0AC
+P 9000 2300
+AR Path="/6151229C/62B5C0AC" Ref="R?"  Part="1" 
+AR Path="/62B5C0AC" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C0AC" Ref="R?"  Part="1" 
+F 0 "R?" H 9070 2346 50  0000 L CNN
+F 1 "10k" H 9070 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8930 2300 50  0001 C CNN
+F 3 "~" H 9000 2300 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 9000 2300 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 9000 2300 50  0001 C CNN "Description"
+F 6 "C136460" H 9000 2300 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 9000 2300 50  0001 C CNN "Manufacturer"
+	1    9000 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 62B5C0B6
+P 9500 1850
+AR Path="/6151229C/62B5C0B6" Ref="U?"  Part="1" 
+AR Path="/62B5C0B6" Ref="U?"  Part="1" 
+AR Path="/62A7B28F/62B5C0B6" Ref="U?"  Part="1" 
+F 0 "U?" H 9800 2525 50  0000 C CNN
+F 1 "74HC595" H 9800 2425 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9500 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9500 1850 50  0001 C CNN
+F 4 "74HC595D,118" H 9500 1850 50  0001 C CNN "Manufacturer PN"
+F 5 "Shift Register SOIC 16" H 9500 1850 50  0001 C CNN "Description"
+F 6 "C5947" H 9500 1850 50  0001 C CNN "LCSC Order Number"
+F 7 "Nexperia" H 9500 1850 50  0001 C CNN "Manufacturer"
+	1    9500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62B5C0BC
+P 9500 1150
+AR Path="/6151229C/62B5C0BC" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C0BC" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C0BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 1000 50  0001 C CNN
+F 1 "+3.3V" H 9515 1323 50  0000 C CNN
+F 2 "" H 9500 1150 50  0001 C CNN
+F 3 "" H 9500 1150 50  0001 C CNN
+	1    9500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1150 9500 1250
+Wire Wire Line
+	9900 1450 10200 1450
+Wire Wire Line
+	9900 1550 10200 1550
+Wire Wire Line
+	9900 1650 10200 1650
+Wire Wire Line
+	9900 1750 10200 1750
+Wire Wire Line
+	9900 1850 10200 1850
+Wire Wire Line
+	9900 1950 10200 1950
+Wire Wire Line
+	9900 2050 10200 2050
+Wire Wire Line
+	9900 2150 10200 2150
+Wire Wire Line
+	9900 2350 10200 2350
+Text GLabel 10200 1550 2    50   Input ~ 0
+Char_2
+Text GLabel 10200 1650 2    50   Input ~ 0
+Char_3
+Text GLabel 10200 1750 2    50   Input ~ 0
+Char_4
+Text GLabel 10200 1850 2    50   Input ~ 0
+LED_A
+Text GLabel 10200 1950 2    50   Input ~ 0
+LED_B
+Text GLabel 10200 2050 2    50   Input ~ 0
+LED_C
+Text GLabel 10200 2150 2    50   Input ~ 0
+LED_D
+Text GLabel 10200 2350 2    50   Input ~ 0
+ShiftRegister_1_overflow
+$Comp
+L 74xx:74HC595 U?
+U 1 1 62B5C0D8
+P 9500 4100
+AR Path="/6151229C/62B5C0D8" Ref="U?"  Part="1" 
+AR Path="/62B5C0D8" Ref="U?"  Part="1" 
+AR Path="/62A7B28F/62B5C0D8" Ref="U?"  Part="1" 
+F 0 "U?" H 9800 4775 50  0000 C CNN
+F 1 "74HC595" H 9800 4675 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9500 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9500 4100 50  0001 C CNN
+F 4 "74HC595D,118" H 9500 4100 50  0001 C CNN "Manufacturer PN"
+F 5 "Shift Register SOIC 16" H 9500 4100 50  0001 C CNN "Description"
+F 6 "C5947" H 9500 4100 50  0001 C CNN "LCSC Order Number"
+F 7 "Nexperia" H 9500 4100 50  0001 C CNN "Manufacturer"
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62B5C0DE
+P 9500 3400
+AR Path="/6151229C/62B5C0DE" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C0DE" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C0DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 3250 50  0001 C CNN
+F 1 "+3.3V" H 9515 3573 50  0000 C CNN
+F 2 "" H 9500 3400 50  0001 C CNN
+F 3 "" H 9500 3400 50  0001 C CNN
+	1    9500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3400 9500 3500
+Wire Wire Line
+	9900 3700 10200 3700
+Wire Wire Line
+	9900 3800 10200 3800
+Wire Wire Line
+	9900 3900 10200 3900
+Wire Wire Line
+	9900 4100 10200 4100
+Wire Wire Line
+	9900 4200 10200 4200
+Wire Wire Line
+	9900 4300 10200 4300
+Wire Wire Line
+	9900 4400 10200 4400
+Wire Wire Line
+	9900 4600 10200 4600
+Text GLabel 10200 3700 2    50   Input ~ 0
+LED_E
+Text GLabel 10200 3800 2    50   Input ~ 0
+LED_F
+Text GLabel 10200 3900 2    50   Input ~ 0
+LED_G
+Text GLabel 10200 4000 2    50   Input ~ 0
+LED_DP
+Text GLabel 10200 4100 2    50   Input ~ 0
+LED_(':')
+Text GLabel 10200 4200 2    50   Input ~ 0
+Unused_QF
+Text GLabel 10200 4300 2    50   Input ~ 0
+Unused_QG
+Text GLabel 10200 4400 2    50   Input ~ 0
+Unused_QH
+Text GLabel 10200 4600 2    50   Input ~ 0
+ShiftRegister_2_overflow
+Text GLabel 8950 3700 0    50   Input ~ 0
+ShiftRegister_1_overflow
+Wire Wire Line
+	8950 3700 9100 3700
+Wire Wire Line
+	9100 1450 8950 1450
+Wire Wire Line
+	9100 1650 8950 1650
+Wire Wire Line
+	9100 1750 8950 1750
+Wire Wire Line
+	9100 1950 8950 1950
+Wire Wire Line
+	9100 2050 9000 2050
+Text GLabel 8950 1450 0    50   Input ~ 0
+Data
+Text GLabel 8950 1650 0    50   Input ~ 0
+Clock
+Text GLabel 8950 1750 0    50   Input ~ 0
+!Clear
+Text GLabel 8950 2050 0    50   Input ~ 0
+ShiftRegister_Output_Enable
+Text GLabel 8950 3900 0    50   Input ~ 0
+Clock
+Text GLabel 8950 4000 0    50   Input ~ 0
+!Clear
+Wire Wire Line
+	8950 3900 9100 3900
+Wire Wire Line
+	9100 4000 8950 4000
+Wire Wire Line
+	8950 4200 9100 4200
+Wire Wire Line
+	9900 4000 10200 4000
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C107
+P 9500 2750
+AR Path="/6151229C/62B5C107" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C107" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C107" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 2500 50  0001 C CNN
+F 1 "GND" H 9505 2577 50  0000 C CNN
+F 2 "" H 9500 2750 50  0001 C CNN
+F 3 "" H 9500 2750 50  0001 C CNN
+	1    9500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2550 9500 2650
+Wire Wire Line
+	9000 2150 9000 2050
+Connection ~ 9000 2050
+Wire Wire Line
+	9000 2050 8950 2050
+Wire Wire Line
+	9500 2650 9000 2650
+Wire Wire Line
+	9000 2650 9000 2450
+Connection ~ 9500 2650
+Wire Wire Line
+	9500 2650 9500 2750
+$Comp
+L Device:R R?
+U 1 1 62B5C119
+P 9000 4550
+AR Path="/6151229C/62B5C119" Ref="R?"  Part="1" 
+AR Path="/62B5C119" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C119" Ref="R?"  Part="1" 
+F 0 "R?" H 9070 4596 50  0000 L CNN
+F 1 "10k" H 9070 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8930 4550 50  0001 C CNN
+F 3 "~" H 9000 4550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 9000 4550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 9000 4550 50  0001 C CNN "Description"
+F 6 "C136460" H 9000 4550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 9000 4550 50  0001 C CNN "Manufacturer"
+	1    9000 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4300 9000 4300
+Text GLabel 8950 4300 0    50   Input ~ 0
+ShiftRegister_Output_Enable
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C121
+P 9500 5000
+AR Path="/6151229C/62B5C121" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C121" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C121" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 4750 50  0001 C CNN
+F 1 "GND" H 9505 4827 50  0000 C CNN
+F 2 "" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4800 9500 4900
+Wire Wire Line
+	9000 4400 9000 4300
+Connection ~ 9000 4300
+Wire Wire Line
+	9000 4300 8950 4300
+Wire Wire Line
+	9500 4900 9000 4900
+Wire Wire Line
+	9000 4900 9000 4700
+Connection ~ 9500 4900
+Wire Wire Line
+	9500 4900 9500 5000
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 62B5C130
+P 12250 1450
+AR Path="/62B5C130" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C130" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12450 1500 50  0000 L CNN
+F 1 "P 1V 250uA 4A SOT-23" H 12450 1400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 1550 50  0001 C CNN
+F 3 "~" H 12250 1450 50  0001 C CNN
+F 4 "C96616" H 12250 1450 50  0001 C CNN "OC"
+	1    12250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1650 12350 1700
+Wire Wire Line
+	12350 1700 12450 1700
+Text GLabel 12450 1700 2    50   Input ~ 0
+Char_1_Power
+$Comp
+L power:VDD #PWR?
+U 1 1 62B5C139
+P 12350 1100
+AR Path="/62B5C139" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C139" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12350 950 50  0001 C CNN
+F 1 "VDD" H 12365 1273 50  0000 C CNN
+F 2 "" H 12350 1100 50  0001 C CNN
+F 3 "" H 12350 1100 50  0001 C CNN
+	1    12350 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 10200 1450 2    50   Input ~ 0
+Char_1
+Text GLabel 11850 1450 0    50   Input ~ 0
+Char_1
+Connection ~ 11950 1450
+Wire Wire Line
+	11950 1450 12050 1450
+Wire Wire Line
+	11850 1450 11950 1450
+$Comp
+L Device:R R?
+U 1 1 62B5C148
+P 12150 1200
+AR Path="/6151229C/62B5C148" Ref="R?"  Part="1" 
+AR Path="/62B5C148" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C148" Ref="R?"  Part="1" 
+F 0 "R?" V 12250 1300 50  0000 R CNN
+F 1 "10k" V 12050 1300 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12080 1200 50  0001 C CNN
+F 3 "~" H 12150 1200 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 12150 1200 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 12150 1200 50  0001 C CNN "Description"
+F 6 "C136460" H 12150 1200 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 12150 1200 50  0001 C CNN "Manufacturer"
+	1    12150 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 1200 12350 1200
+Wire Wire Line
+	12350 1200 12350 1250
+Wire Wire Line
+	12350 1100 12350 1200
+Connection ~ 12350 1200
+Wire Wire Line
+	12000 1200 11950 1200
+Wire Wire Line
+	11950 1200 11950 1450
+Wire Notes Line
+	11350 850  13500 850 
+Wire Notes Line
+	13500 1850 11350 1850
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 62B5C157
+P 12250 2450
+AR Path="/62B5C157" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C157" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12450 2500 50  0000 L CNN
+F 1 "P 1V 250uA 4A SOT-23" H 12450 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 2550 50  0001 C CNN
+F 3 "~" H 12250 2450 50  0001 C CNN
+F 4 "C96616" H 12250 2450 50  0001 C CNN "OC"
+	1    12250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 2650 12350 2700
+Wire Wire Line
+	12350 2700 12450 2700
+$Comp
+L power:VDD #PWR?
+U 1 1 62B5C15F
+P 12350 2100
+AR Path="/62B5C15F" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C15F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12350 1950 50  0001 C CNN
+F 1 "VDD" H 12365 2273 50  0000 C CNN
+F 2 "" H 12350 2100 50  0001 C CNN
+F 3 "" H 12350 2100 50  0001 C CNN
+	1    12350 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11950 2450
+Wire Wire Line
+	11950 2450 12050 2450
+Wire Wire Line
+	11850 2450 11950 2450
+$Comp
+L Device:R R?
+U 1 1 62B5C16C
+P 12150 2200
+AR Path="/6151229C/62B5C16C" Ref="R?"  Part="1" 
+AR Path="/62B5C16C" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C16C" Ref="R?"  Part="1" 
+F 0 "R?" V 12250 2300 50  0000 R CNN
+F 1 "10k" V 12050 2300 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12080 2200 50  0001 C CNN
+F 3 "~" H 12150 2200 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 12150 2200 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 12150 2200 50  0001 C CNN "Description"
+F 6 "C136460" H 12150 2200 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 12150 2200 50  0001 C CNN "Manufacturer"
+	1    12150 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 2200 12350 2200
+Wire Wire Line
+	12350 2200 12350 2250
+Wire Wire Line
+	12350 2100 12350 2200
+Connection ~ 12350 2200
+Wire Wire Line
+	12000 2200 11950 2200
+Wire Wire Line
+	11950 2200 11950 2450
+Wire Notes Line
+	13500 2850 11350 2850
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 62B5C17A
+P 12250 3450
+AR Path="/62B5C17A" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C17A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12450 3500 50  0000 L CNN
+F 1 "P 1V 250uA 4A SOT-23" H 12450 3400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 3550 50  0001 C CNN
+F 3 "~" H 12250 3450 50  0001 C CNN
+F 4 "C96616" H 12250 3450 50  0001 C CNN "OC"
+	1    12250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 3650 12350 3700
+Wire Wire Line
+	12350 3700 12450 3700
+$Comp
+L power:VDD #PWR?
+U 1 1 62B5C182
+P 12350 3100
+AR Path="/62B5C182" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C182" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12350 2950 50  0001 C CNN
+F 1 "VDD" H 12365 3273 50  0000 C CNN
+F 2 "" H 12350 3100 50  0001 C CNN
+F 3 "" H 12350 3100 50  0001 C CNN
+	1    12350 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11950 3450
+Wire Wire Line
+	11950 3450 12050 3450
+Wire Wire Line
+	11850 3450 11950 3450
+$Comp
+L Device:R R?
+U 1 1 62B5C18F
+P 12150 3200
+AR Path="/6151229C/62B5C18F" Ref="R?"  Part="1" 
+AR Path="/62B5C18F" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C18F" Ref="R?"  Part="1" 
+F 0 "R?" V 12250 3300 50  0000 R CNN
+F 1 "10k" V 12050 3300 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12080 3200 50  0001 C CNN
+F 3 "~" H 12150 3200 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 12150 3200 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 12150 3200 50  0001 C CNN "Description"
+F 6 "C136460" H 12150 3200 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 12150 3200 50  0001 C CNN "Manufacturer"
+	1    12150 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 3200 12350 3200
+Wire Wire Line
+	12350 3200 12350 3250
+Wire Wire Line
+	12350 3100 12350 3200
+Connection ~ 12350 3200
+Wire Wire Line
+	12000 3200 11950 3200
+Wire Wire Line
+	11950 3200 11950 3450
+Wire Notes Line
+	13500 3850 11350 3850
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 62B5C19D
+P 12250 4450
+AR Path="/62B5C19D" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C19D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12450 4500 50  0000 L CNN
+F 1 "P 1V 250uA 4A SOT-23" H 12450 4400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 4550 50  0001 C CNN
+F 3 "~" H 12250 4450 50  0001 C CNN
+F 4 "C96616" H 12250 4450 50  0001 C CNN "OC"
+	1    12250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 4650 12350 4700
+Wire Wire Line
+	12350 4700 12450 4700
+$Comp
+L power:VDD #PWR?
+U 1 1 62B5C1A5
+P 12350 4100
+AR Path="/62B5C1A5" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C1A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12350 3950 50  0001 C CNN
+F 1 "VDD" H 12365 4273 50  0000 C CNN
+F 2 "" H 12350 4100 50  0001 C CNN
+F 3 "" H 12350 4100 50  0001 C CNN
+	1    12350 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11950 4450
+Wire Wire Line
+	11950 4450 12050 4450
+Wire Wire Line
+	11850 4450 11950 4450
+$Comp
+L Device:R R?
+U 1 1 62B5C1B2
+P 12150 4200
+AR Path="/6151229C/62B5C1B2" Ref="R?"  Part="1" 
+AR Path="/62B5C1B2" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C1B2" Ref="R?"  Part="1" 
+F 0 "R?" V 12250 4300 50  0000 R CNN
+F 1 "10k" V 12050 4300 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12080 4200 50  0001 C CNN
+F 3 "~" H 12150 4200 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 12150 4200 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 12150 4200 50  0001 C CNN "Description"
+F 6 "C136460" H 12150 4200 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 12150 4200 50  0001 C CNN "Manufacturer"
+	1    12150 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 4200 12350 4200
+Wire Wire Line
+	12350 4200 12350 4250
+Wire Wire Line
+	12350 4100 12350 4200
+Connection ~ 12350 4200
+Wire Wire Line
+	12000 4200 11950 4200
+Wire Wire Line
+	11950 4200 11950 4450
+Wire Notes Line
+	13500 4850 11350 4850
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 62B5C1C0
+P 12250 5450
+AR Path="/62B5C1C0" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C1C0" Ref="Q?"  Part="1" 
+F 0 "Q?" H 12450 5500 50  0000 L CNN
+F 1 "P 1V 250uA 4A SOT-23" H 12450 5400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12450 5550 50  0001 C CNN
+F 3 "~" H 12250 5450 50  0001 C CNN
+F 4 "C96616" H 12250 5450 50  0001 C CNN "OC"
+	1    12250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 5650 12350 5700
+Wire Wire Line
+	12350 5700 12450 5700
+$Comp
+L power:VDD #PWR?
+U 1 1 62B5C1C8
+P 12350 5100
+AR Path="/62B5C1C8" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C1C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12350 4950 50  0001 C CNN
+F 1 "VDD" H 12365 5273 50  0000 C CNN
+F 2 "" H 12350 5100 50  0001 C CNN
+F 3 "" H 12350 5100 50  0001 C CNN
+	1    12350 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11950 5450
+Wire Wire Line
+	11950 5450 12050 5450
+Wire Wire Line
+	11850 5450 11950 5450
+$Comp
+L Device:R R?
+U 1 1 62B5C1D5
+P 12150 5200
+AR Path="/6151229C/62B5C1D5" Ref="R?"  Part="1" 
+AR Path="/62B5C1D5" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C1D5" Ref="R?"  Part="1" 
+F 0 "R?" V 12250 5300 50  0000 R CNN
+F 1 "10k" V 12050 5300 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12080 5200 50  0001 C CNN
+F 3 "~" H 12150 5200 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 12150 5200 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 12150 5200 50  0001 C CNN "Description"
+F 6 "C136460" H 12150 5200 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 12150 5200 50  0001 C CNN "Manufacturer"
+	1    12150 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 5200 12350 5200
+Wire Wire Line
+	12350 5200 12350 5250
+Wire Wire Line
+	12350 5100 12350 5200
+Connection ~ 12350 5200
+Wire Wire Line
+	12000 5200 11950 5200
+Wire Wire Line
+	11950 5200 11950 5450
+Wire Notes Line
+	13500 5850 11350 5850
+Wire Notes Line
+	13500 850  13500 5850
+Wire Notes Line
+	11350 850  11350 5850
+Text GLabel 12450 2700 2    50   Input ~ 0
+Char_2_Power
+Text GLabel 12450 3700 2    50   Input ~ 0
+Char_3_Power
+Text GLabel 12450 4700 2    50   Input ~ 0
+Char_4_Power
+Text GLabel 12450 5700 2    50   Input ~ 0
+Char_(':')_Power
+Text GLabel 11850 2450 0    50   Input ~ 0
+Char_2
+Text GLabel 11850 3450 0    50   Input ~ 0
+Char_3
+Text GLabel 11850 4450 0    50   Input ~ 0
+Char_4
+Text GLabel 11850 5450 0    50   Input ~ 0
+LED_(':')
+$Comp
+L Device:C_Small C?
+U 1 1 62B5C1F0
+P 8800 2650
+AR Path="/6151229C/62B5C1F0" Ref="C?"  Part="1" 
+AR Path="/62B5C1F0" Ref="C?"  Part="1" 
+AR Path="/62A7B28F/62B5C1F0" Ref="C?"  Part="1" 
+F 0 "C?" V 8950 2600 50  0000 L CNN
+F 1 "1uF" V 9050 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 2650 50  0001 C CNN
+F 3 "~" H 8800 2650 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 8800 2650 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 8800 2650 50  0001 C CNN "Description"
+F 6 "C13832" H 8800 2650 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 8800 2650 50  0001 C CNN "Manufacturer"
+	1    8800 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2650 9000 2650
+Connection ~ 9000 2650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62B5C1F8
+P 8550 2600
+AR Path="/6151229C/62B5C1F8" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C1F8" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C1F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8550 2450 50  0001 C CNN
+F 1 "+3.3V" H 8565 2773 50  0000 C CNN
+F 2 "" H 8550 2600 50  0001 C CNN
+F 3 "" H 8550 2600 50  0001 C CNN
+	1    8550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2600 8550 2650
+Wire Wire Line
+	8550 2650 8700 2650
+$Comp
+L Device:C_Small C?
+U 1 1 62B5C204
+P 8800 4900
+AR Path="/6151229C/62B5C204" Ref="C?"  Part="1" 
+AR Path="/62B5C204" Ref="C?"  Part="1" 
+AR Path="/62A7B28F/62B5C204" Ref="C?"  Part="1" 
+F 0 "C?" V 8950 4850 50  0000 L CNN
+F 1 "1uF" V 9050 4850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 4900 50  0001 C CNN
+F 3 "~" H 8800 4900 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 8800 4900 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 8800 4900 50  0001 C CNN "Description"
+F 6 "C13832" H 8800 4900 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 8800 4900 50  0001 C CNN "Manufacturer"
+	1    8800 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 4900 9000 4900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62B5C20B
+P 8550 4850
+AR Path="/6151229C/62B5C20B" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C20B" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C20B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8550 4700 50  0001 C CNN
+F 1 "+3.3V" H 8565 5023 50  0000 C CNN
+F 2 "" H 8550 4850 50  0001 C CNN
+F 3 "" H 8550 4850 50  0001 C CNN
+	1    8550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4850 8550 4900
+Wire Wire Line
+	8550 4900 8700 4900
+Wire Notes Line
+	7750 5350 11250 5350
+Wire Notes Line
+	7750 850  7750 5350
+Wire Notes Line
+	11250 850  11250 5350
+Connection ~ 9000 4900
+Text GLabel 8950 1950 0    50   Input ~ 0
+Latch
+Text GLabel 8950 4200 0    50   Input ~ 0
+Latch
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C21A
+P 14600 1300
+AR Path="/62B5C21A" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C21A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 1346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 1400 50  0001 C CNN
+F 3 "~" H 14600 1300 50  0001 C CNN
+F 4 "C353086" H 14600 1300 50  0001 C CNN "OC"
+	1    14600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C220
+P 14700 1600
+AR Path="/6151229C/62B5C220" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C220" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C220" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 1350 50  0001 C CNN
+F 1 "GND" H 14705 1427 50  0000 C CNN
+F 2 "" H 14700 1600 50  0001 C CNN
+F 3 "" H 14700 1600 50  0001 C CNN
+	1    14700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 1500 14700 1550
+$Comp
+L Device:R R?
+U 1 1 62B5C22B
+P 14500 1550
+AR Path="/6151229C/62B5C22B" Ref="R?"  Part="1" 
+AR Path="/62B5C22B" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C22B" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 1650 50  0000 R CNN
+F 1 "10k" V 14400 1650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 1550 50  0001 C CNN
+F 3 "~" H 14500 1550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 1550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 1550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 1550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 1550 50  0001 C CNN "Manufacturer"
+	1    14500 1550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 1550 14700 1550
+Connection ~ 14700 1550
+Wire Wire Line
+	14700 1550 14700 1600
+Wire Wire Line
+	14400 1300 14300 1300
+Wire Wire Line
+	14300 1300 14300 1550
+Wire Wire Line
+	14300 1550 14350 1550
+Connection ~ 14300 1300
+Wire Wire Line
+	14700 1100 14700 1000
+Wire Wire Line
+	14700 1000 14850 1000
+Text GLabel 14850 1000 2    50   Input ~ 0
+LED_A_Sink
+Text GLabel 14100 1300 0    50   Input ~ 0
+LED_A
+Wire Wire Line
+	14100 1300 14300 1300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C23E
+P 14600 2300
+AR Path="/62B5C23E" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C23E" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 2346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 2255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 2400 50  0001 C CNN
+F 3 "~" H 14600 2300 50  0001 C CNN
+F 4 "C353086" H 14600 2300 50  0001 C CNN "OC"
+	1    14600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C244
+P 14700 2600
+AR Path="/6151229C/62B5C244" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C244" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C244" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 2350 50  0001 C CNN
+F 1 "GND" H 14705 2427 50  0000 C CNN
+F 2 "" H 14700 2600 50  0001 C CNN
+F 3 "" H 14700 2600 50  0001 C CNN
+	1    14700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 2500 14700 2550
+$Comp
+L Device:R R?
+U 1 1 62B5C24F
+P 14500 2550
+AR Path="/6151229C/62B5C24F" Ref="R?"  Part="1" 
+AR Path="/62B5C24F" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C24F" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 2650 50  0000 R CNN
+F 1 "10k" V 14400 2650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 2550 50  0001 C CNN
+F 3 "~" H 14500 2550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 2550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 2550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 2550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 2550 50  0001 C CNN "Manufacturer"
+	1    14500 2550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 2550 14700 2550
+Connection ~ 14700 2550
+Wire Wire Line
+	14700 2550 14700 2600
+Wire Wire Line
+	14400 2300 14300 2300
+Wire Wire Line
+	14300 2300 14300 2550
+Wire Wire Line
+	14300 2550 14350 2550
+Connection ~ 14300 2300
+Wire Wire Line
+	14700 2100 14700 2000
+Wire Wire Line
+	14700 2000 14850 2000
+Wire Wire Line
+	14100 2300 14300 2300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C260
+P 14600 3300
+AR Path="/62B5C260" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C260" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 3346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 3400 50  0001 C CNN
+F 3 "~" H 14600 3300 50  0001 C CNN
+F 4 "C353086" H 14600 3300 50  0001 C CNN "OC"
+	1    14600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C266
+P 14700 3600
+AR Path="/6151229C/62B5C266" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C266" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C266" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 3350 50  0001 C CNN
+F 1 "GND" H 14705 3427 50  0000 C CNN
+F 2 "" H 14700 3600 50  0001 C CNN
+F 3 "" H 14700 3600 50  0001 C CNN
+	1    14700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 3500 14700 3550
+$Comp
+L Device:R R?
+U 1 1 62B5C271
+P 14500 3550
+AR Path="/6151229C/62B5C271" Ref="R?"  Part="1" 
+AR Path="/62B5C271" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C271" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 3650 50  0000 R CNN
+F 1 "10k" V 14400 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 3550 50  0001 C CNN
+F 3 "~" H 14500 3550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 3550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 3550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 3550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 3550 50  0001 C CNN "Manufacturer"
+	1    14500 3550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 3550 14700 3550
+Connection ~ 14700 3550
+Wire Wire Line
+	14700 3550 14700 3600
+Wire Wire Line
+	14400 3300 14300 3300
+Wire Wire Line
+	14300 3300 14300 3550
+Wire Wire Line
+	14300 3550 14350 3550
+Connection ~ 14300 3300
+Wire Wire Line
+	14700 3100 14700 3000
+Wire Wire Line
+	14700 3000 14850 3000
+Wire Wire Line
+	14100 3300 14300 3300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C282
+P 14600 4300
+AR Path="/62B5C282" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C282" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 4346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 4400 50  0001 C CNN
+F 3 "~" H 14600 4300 50  0001 C CNN
+F 4 "C353086" H 14600 4300 50  0001 C CNN "OC"
+	1    14600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C288
+P 14700 4600
+AR Path="/6151229C/62B5C288" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C288" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C288" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 4350 50  0001 C CNN
+F 1 "GND" H 14705 4427 50  0000 C CNN
+F 2 "" H 14700 4600 50  0001 C CNN
+F 3 "" H 14700 4600 50  0001 C CNN
+	1    14700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 4500 14700 4550
+$Comp
+L Device:R R?
+U 1 1 62B5C293
+P 14500 4550
+AR Path="/6151229C/62B5C293" Ref="R?"  Part="1" 
+AR Path="/62B5C293" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C293" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 4650 50  0000 R CNN
+F 1 "10k" V 14400 4650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 4550 50  0001 C CNN
+F 3 "~" H 14500 4550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 4550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 4550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 4550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 4550 50  0001 C CNN "Manufacturer"
+	1    14500 4550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 4550 14700 4550
+Connection ~ 14700 4550
+Wire Wire Line
+	14700 4550 14700 4600
+Wire Wire Line
+	14400 4300 14300 4300
+Wire Wire Line
+	14300 4300 14300 4550
+Wire Wire Line
+	14300 4550 14350 4550
+Connection ~ 14300 4300
+Wire Wire Line
+	14700 4100 14700 4000
+Wire Wire Line
+	14700 4000 14850 4000
+Wire Wire Line
+	14100 4300 14300 4300
+Wire Notes Line
+	13600 850  13600 9850
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C2A5
+P 14600 5300
+AR Path="/62B5C2A5" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C2A5" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 5346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 5400 50  0001 C CNN
+F 3 "~" H 14600 5300 50  0001 C CNN
+F 4 "C353086" H 14600 5300 50  0001 C CNN "OC"
+	1    14600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C2AB
+P 14700 5600
+AR Path="/6151229C/62B5C2AB" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C2AB" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C2AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 5350 50  0001 C CNN
+F 1 "GND" H 14705 5427 50  0000 C CNN
+F 2 "" H 14700 5600 50  0001 C CNN
+F 3 "" H 14700 5600 50  0001 C CNN
+	1    14700 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 5500 14700 5550
+$Comp
+L Device:R R?
+U 1 1 62B5C2B6
+P 14500 5550
+AR Path="/6151229C/62B5C2B6" Ref="R?"  Part="1" 
+AR Path="/62B5C2B6" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C2B6" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 5650 50  0000 R CNN
+F 1 "10k" V 14400 5650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 5550 50  0001 C CNN
+F 3 "~" H 14500 5550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 5550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 5550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 5550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 5550 50  0001 C CNN "Manufacturer"
+	1    14500 5550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 5550 14700 5550
+Connection ~ 14700 5550
+Wire Wire Line
+	14700 5550 14700 5600
+Wire Wire Line
+	14400 5300 14300 5300
+Wire Wire Line
+	14300 5300 14300 5550
+Wire Wire Line
+	14300 5550 14350 5550
+Connection ~ 14300 5300
+Wire Wire Line
+	14700 5100 14700 5000
+Wire Wire Line
+	14700 5000 14850 5000
+Wire Wire Line
+	14100 5300 14300 5300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C2C7
+P 14600 6300
+AR Path="/62B5C2C7" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C2C7" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 6346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 6255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 6400 50  0001 C CNN
+F 3 "~" H 14600 6300 50  0001 C CNN
+F 4 "C353086" H 14600 6300 50  0001 C CNN "OC"
+	1    14600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C2CD
+P 14700 6600
+AR Path="/6151229C/62B5C2CD" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C2CD" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C2CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 6350 50  0001 C CNN
+F 1 "GND" H 14705 6427 50  0000 C CNN
+F 2 "" H 14700 6600 50  0001 C CNN
+F 3 "" H 14700 6600 50  0001 C CNN
+	1    14700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6500 14700 6550
+$Comp
+L Device:R R?
+U 1 1 62B5C2D8
+P 14500 6550
+AR Path="/6151229C/62B5C2D8" Ref="R?"  Part="1" 
+AR Path="/62B5C2D8" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C2D8" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 6650 50  0000 R CNN
+F 1 "10k" V 14400 6650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 6550 50  0001 C CNN
+F 3 "~" H 14500 6550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 6550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 6550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 6550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 6550 50  0001 C CNN "Manufacturer"
+	1    14500 6550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 6550 14700 6550
+Connection ~ 14700 6550
+Wire Wire Line
+	14700 6550 14700 6600
+Wire Wire Line
+	14400 6300 14300 6300
+Wire Wire Line
+	14300 6300 14300 6550
+Wire Wire Line
+	14300 6550 14350 6550
+Connection ~ 14300 6300
+Wire Wire Line
+	14700 6100 14700 6000
+Wire Wire Line
+	14700 6000 14850 6000
+Wire Wire Line
+	14100 6300 14300 6300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C2E9
+P 14600 7300
+AR Path="/62B5C2E9" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C2E9" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 7346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 7255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 7400 50  0001 C CNN
+F 3 "~" H 14600 7300 50  0001 C CNN
+F 4 "C353086" H 14600 7300 50  0001 C CNN "OC"
+	1    14600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C2EF
+P 14700 7600
+AR Path="/6151229C/62B5C2EF" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C2EF" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C2EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 7350 50  0001 C CNN
+F 1 "GND" H 14705 7427 50  0000 C CNN
+F 2 "" H 14700 7600 50  0001 C CNN
+F 3 "" H 14700 7600 50  0001 C CNN
+	1    14700 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 7500 14700 7550
+$Comp
+L Device:R R?
+U 1 1 62B5C2FA
+P 14500 7550
+AR Path="/6151229C/62B5C2FA" Ref="R?"  Part="1" 
+AR Path="/62B5C2FA" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C2FA" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 7650 50  0000 R CNN
+F 1 "10k" V 14400 7650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 7550 50  0001 C CNN
+F 3 "~" H 14500 7550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 7550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 7550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 7550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 7550 50  0001 C CNN "Manufacturer"
+	1    14500 7550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 7550 14700 7550
+Connection ~ 14700 7550
+Wire Wire Line
+	14700 7550 14700 7600
+Wire Wire Line
+	14400 7300 14300 7300
+Wire Wire Line
+	14300 7300 14300 7550
+Wire Wire Line
+	14300 7550 14350 7550
+Connection ~ 14300 7300
+Wire Wire Line
+	14700 7100 14700 7000
+Wire Wire Line
+	14700 7000 14850 7000
+Wire Wire Line
+	14100 7300 14300 7300
+Wire Notes Line
+	13600 6850 15600 6850
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C30C
+P 14600 8300
+AR Path="/62B5C30C" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C30C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 8346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 8255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 8400 50  0001 C CNN
+F 3 "~" H 14600 8300 50  0001 C CNN
+F 4 "C353086" H 14600 8300 50  0001 C CNN "OC"
+	1    14600 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C312
+P 14700 8600
+AR Path="/6151229C/62B5C312" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C312" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C312" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 8350 50  0001 C CNN
+F 1 "GND" H 14705 8427 50  0000 C CNN
+F 2 "" H 14700 8600 50  0001 C CNN
+F 3 "" H 14700 8600 50  0001 C CNN
+	1    14700 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 8500 14700 8550
+$Comp
+L Device:R R?
+U 1 1 62B5C31D
+P 14500 8550
+AR Path="/6151229C/62B5C31D" Ref="R?"  Part="1" 
+AR Path="/62B5C31D" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C31D" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 8650 50  0000 R CNN
+F 1 "10k" V 14400 8650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 8550 50  0001 C CNN
+F 3 "~" H 14500 8550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 8550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 8550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 8550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 8550 50  0001 C CNN "Manufacturer"
+	1    14500 8550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14650 8550 14700 8550
+Connection ~ 14700 8550
+Wire Wire Line
+	14700 8550 14700 8600
+Wire Wire Line
+	14400 8300 14300 8300
+Wire Wire Line
+	14300 8300 14300 8550
+Wire Wire Line
+	14300 8550 14350 8550
+Connection ~ 14300 8300
+Wire Wire Line
+	14700 8100 14700 8000
+Wire Wire Line
+	14700 8000 14850 8000
+Wire Wire Line
+	14100 8300 14300 8300
+Wire Notes Line
+	13600 7850 15600 7850
+Text GLabel 14850 2000 2    50   Input ~ 0
+LED_B_Sink
+Text GLabel 14850 3000 2    50   Input ~ 0
+LED_C_Sink
+Text GLabel 14850 4000 2    50   Input ~ 0
+LED_D_Sink
+Text GLabel 14850 5000 2    50   Input ~ 0
+LED_E_Sink
+Text GLabel 14850 6000 2    50   Input ~ 0
+LED_F_Sink
+Text GLabel 14850 7000 2    50   Input ~ 0
+LED_G_Sink
+Text GLabel 14850 8000 2    50   Input ~ 0
+LED_DP_Sink
+Text GLabel 14100 2300 0    50   Input ~ 0
+LED_B
+Text GLabel 14100 3300 0    50   Input ~ 0
+LED_C
+Text GLabel 14100 4300 0    50   Input ~ 0
+LED_D
+Text GLabel 14100 5300 0    50   Input ~ 0
+LED_E
+Text GLabel 14100 6300 0    50   Input ~ 0
+LED_F
+Text GLabel 14100 7300 0    50   Input ~ 0
+LED_G
+Text GLabel 14100 8300 0    50   Input ~ 0
+LED_DP
+Text GLabel 14100 9300 0    50   Input ~ 0
+LED_(':')
+Text GLabel 14850 9000 2    50   Input ~ 0
+LED_':'_Sink
+Wire Notes Line
+	13600 9850 15600 9850
+Wire Wire Line
+	14100 9300 14300 9300
+Wire Wire Line
+	14700 9000 14850 9000
+Wire Wire Line
+	14700 9100 14700 9000
+Connection ~ 14300 9300
+Wire Wire Line
+	14300 9550 14350 9550
+Wire Wire Line
+	14300 9300 14300 9550
+Wire Wire Line
+	14400 9300 14300 9300
+Wire Wire Line
+	14700 9550 14700 9600
+Connection ~ 14700 9550
+Wire Wire Line
+	14650 9550 14700 9550
+$Comp
+L Device:R R?
+U 1 1 62B5C34D
+P 14500 9550
+AR Path="/6151229C/62B5C34D" Ref="R?"  Part="1" 
+AR Path="/62B5C34D" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C34D" Ref="R?"  Part="1" 
+F 0 "R?" V 14600 9650 50  0000 R CNN
+F 1 "10k" V 14400 9650 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 9550 50  0001 C CNN
+F 3 "~" H 14500 9550 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 14500 9550 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 14500 9550 50  0001 C CNN "Description"
+F 6 "C136460" H 14500 9550 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 14500 9550 50  0001 C CNN "Manufacturer"
+	1    14500 9550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14700 9500 14700 9550
+$Comp
+L power:GND #PWR?
+U 1 1 62B5C354
+P 14700 9600
+AR Path="/6151229C/62B5C354" Ref="#PWR?"  Part="1" 
+AR Path="/62B5C354" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/62B5C354" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14700 9350 50  0001 C CNN
+F 1 "GND" H 14705 9427 50  0000 C CNN
+F 2 "" H 14700 9600 50  0001 C CNN
+F 3 "" H 14700 9600 50  0001 C CNN
+	1    14700 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 62B5C35B
+P 14600 9300
+AR Path="/62B5C35B" Ref="Q?"  Part="1" 
+AR Path="/62A7B28F/62B5C35B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 14804 9346 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 14804 9255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 9400 50  0001 C CNN
+F 3 "~" H 14600 9300 50  0001 C CNN
+F 4 "C353086" H 14600 9300 50  0001 C CNN "OC"
+	1    14600 9300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15600 850  15600 9850
+Wire Notes Line
+	13600 8850 15600 8850
+Wire Notes Line
+	15600 5850 13600 5850
+Wire Notes Line
+	13600 4850 15600 4850
+Wire Notes Line
+	13600 3850 15600 3850
+Wire Notes Line
+	13600 2850 15600 2850
+Wire Notes Line
+	13600 1850 15600 1850
+Wire Notes Line
+	13600 850  15600 850 
+Wire Notes Line
+	1500 3100 11250 3100
+Wire Notes Line
+	1500 850  11250 850 
+Wire Notes Line
+	1500 850  1500 3100
+Wire Wire Line
+	2900 1350 3900 1350
+Wire Wire Line
+	3900 1750 3700 1750
+Wire Wire Line
+	3900 1650 3500 1650
+Wire Wire Line
+	3900 1550 3300 1550
+Wire Wire Line
+	3900 1450 3100 1450
+Wire Wire Line
+	3700 2150 3700 1750
+Wire Wire Line
+	2900 2150 3700 2150
+Wire Wire Line
+	3500 1950 3500 1650
+Wire Wire Line
+	2900 1950 3500 1950
+Wire Wire Line
+	3300 1750 3300 1550
+Wire Wire Line
+	2900 1750 3300 1750
+Wire Wire Line
+	3100 1550 3100 1450
+Wire Wire Line
+	2900 1550 3100 1550
+Wire Wire Line
+	5000 1450 6150 1450
+Wire Wire Line
+	5000 1550 6000 1550
+Wire Wire Line
+	5000 1650 5850 1650
+Wire Wire Line
+	5000 1750 5700 1750
+Wire Wire Line
+	5000 1850 5550 1850
+Wire Wire Line
+	5000 2050 5250 2050
+Wire Wire Line
+	5000 2150 5100 2150
+Wire Wire Line
+	5000 1950 5400 1950
+Wire Wire Line
+	5000 1350 6300 1350
+Wire Wire Line
+	5100 2950 5100 2150
+Wire Wire Line
+	6300 2950 5100 2950
+$Comp
+L Device:R R?
+U 1 1 62B5C384
+P 6450 1350
+AR Path="/62B5C384" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C384" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 1300 50  0000 C CNN
+F 1 "R" V 6350 1400 50  0000 C CNN
+F 2 "" V 6380 1350 50  0001 C CNN
+F 3 "~" H 6450 1350 50  0001 C CNN
+	1    6450 1350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C38A
+P 6450 1550
+AR Path="/62B5C38A" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C38A" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 1500 50  0000 C CNN
+F 1 "R" V 6350 1600 50  0000 C CNN
+F 2 "" V 6380 1550 50  0001 C CNN
+F 3 "~" H 6450 1550 50  0001 C CNN
+	1    6450 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C390
+P 6450 1750
+AR Path="/62B5C390" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C390" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 1700 50  0000 C CNN
+F 1 "R" V 6350 1800 50  0000 C CNN
+F 2 "" V 6380 1750 50  0001 C CNN
+F 3 "~" H 6450 1750 50  0001 C CNN
+	1    6450 1750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C396
+P 6450 1950
+AR Path="/62B5C396" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C396" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 1900 50  0000 C CNN
+F 1 "R" V 6350 2000 50  0000 C CNN
+F 2 "" V 6380 1950 50  0001 C CNN
+F 3 "~" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C39C
+P 6450 2150
+AR Path="/62B5C39C" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C39C" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 2100 50  0000 C CNN
+F 1 "R" V 6350 2200 50  0000 C CNN
+F 2 "" V 6380 2150 50  0001 C CNN
+F 3 "~" H 6450 2150 50  0001 C CNN
+	1    6450 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3A2
+P 6450 2350
+AR Path="/62B5C3A2" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3A2" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 2300 50  0000 C CNN
+F 1 "R" V 6350 2400 50  0000 C CNN
+F 2 "" V 6380 2350 50  0001 C CNN
+F 3 "~" H 6450 2350 50  0001 C CNN
+	1    6450 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3A8
+P 6450 2550
+AR Path="/62B5C3A8" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3A8" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 2500 50  0000 C CNN
+F 1 "R" V 6350 2600 50  0000 C CNN
+F 2 "" V 6380 2550 50  0001 C CNN
+F 3 "~" H 6450 2550 50  0001 C CNN
+	1    6450 2550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3AE
+P 6450 2750
+AR Path="/62B5C3AE" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3AE" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 2700 50  0000 C CNN
+F 1 "R" V 6350 2800 50  0000 C CNN
+F 2 "" V 6380 2750 50  0001 C CNN
+F 3 "~" H 6450 2750 50  0001 C CNN
+	1    6450 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3B4
+P 6450 2950
+AR Path="/62B5C3B4" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3B4" Ref="R?"  Part="1" 
+F 0 "R?" V 6350 2900 50  0000 C CNN
+F 1 "R" V 6350 3000 50  0000 C CNN
+F 2 "" V 6380 2950 50  0001 C CNN
+F 3 "~" H 6450 2950 50  0001 C CNN
+	1    6450 2950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6600 1750 6700 1750
+Wire Wire Line
+	6700 1950 6600 1950
+Wire Wire Line
+	6600 2150 6700 2150
+Wire Wire Line
+	6700 2350 6600 2350
+Wire Wire Line
+	6600 2550 6700 2550
+Wire Wire Line
+	6700 2750 6600 2750
+Wire Wire Line
+	6700 1550 6600 1550
+Wire Wire Line
+	6700 1350 6600 1350
+Text GLabel 6700 2950 2    50   Input ~ 0
+LED_':'_Sink
+Text GLabel 6700 2750 2    50   Input ~ 0
+LED_DP_Sink
+Text GLabel 6700 2550 2    50   Input ~ 0
+LED_G_Sink
+Text GLabel 6700 2350 2    50   Input ~ 0
+LED_F_Sink
+Text GLabel 6700 2150 2    50   Input ~ 0
+LED_E_Sink
+Text GLabel 6700 1950 2    50   Input ~ 0
+LED_D_Sink
+Text GLabel 6700 1750 2    50   Input ~ 0
+LED_C_Sink
+Text GLabel 6700 1550 2    50   Input ~ 0
+LED_B_Sink
+Text GLabel 6700 1350 2    50   Input ~ 0
+LED_A_Sink
+Wire Wire Line
+	6700 2950 6600 2950
+Wire Wire Line
+	6300 1550 6150 1550
+Wire Wire Line
+	6150 1550 6150 1450
+Wire Wire Line
+	6300 1750 6000 1750
+Wire Wire Line
+	6000 1750 6000 1550
+Wire Wire Line
+	6300 1950 5850 1950
+Wire Wire Line
+	5850 1950 5850 1650
+Wire Wire Line
+	6300 2150 5700 2150
+Wire Wire Line
+	5700 2150 5700 1750
+Wire Wire Line
+	6300 2350 5550 2350
+Wire Wire Line
+	5550 2350 5550 1850
+Wire Wire Line
+	6300 2550 5400 2550
+Wire Wire Line
+	5400 2550 5400 1950
+Wire Wire Line
+	6300 2750 5250 2750
+Wire Wire Line
+	5250 2750 5250 2050
+Wire Wire Line
+	2600 1550 2450 1550
+Wire Wire Line
+	2450 1750 2600 1750
+Wire Wire Line
+	2600 1950 2450 1950
+Wire Wire Line
+	2450 2150 2600 2150
+Text GLabel 2450 2150 0    50   Input ~ 0
+Char_(':')_Power
+Text GLabel 2450 1950 0    50   Input ~ 0
+Char_4_Power
+Text GLabel 2450 1750 0    50   Input ~ 0
+Char_3_Power
+Text GLabel 2450 1550 0    50   Input ~ 0
+Char_2_Power
+Wire Wire Line
+	2450 1350 2600 1350
+Text GLabel 2450 1350 0    50   Input ~ 0
+Char_1_Power
+$Comp
+L Device:R R?
+U 1 1 62B5C3E4
+P 2750 2150
+AR Path="/62B5C3E4" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3E4" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 2100 50  0000 C CNN
+F 1 "R" V 2650 2200 50  0000 C CNN
+F 2 "" V 2680 2150 50  0001 C CNN
+F 3 "~" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3EA
+P 2750 1950
+AR Path="/62B5C3EA" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3EA" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 1900 50  0000 C CNN
+F 1 "R" V 2650 2000 50  0000 C CNN
+F 2 "" V 2680 1950 50  0001 C CNN
+F 3 "~" H 2750 1950 50  0001 C CNN
+	1    2750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3F0
+P 2750 1750
+AR Path="/62B5C3F0" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3F0" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 1700 50  0000 C CNN
+F 1 "R" V 2650 1800 50  0000 C CNN
+F 2 "" V 2680 1750 50  0001 C CNN
+F 3 "~" H 2750 1750 50  0001 C CNN
+	1    2750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3F6
+P 2750 1550
+AR Path="/62B5C3F6" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3F6" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 1500 50  0000 C CNN
+F 1 "R" V 2650 1600 50  0000 C CNN
+F 2 "" V 2680 1550 50  0001 C CNN
+F 3 "~" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B5C3FC
+P 2750 1350
+AR Path="/62B5C3FC" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/62B5C3FC" Ref="R?"  Part="1" 
+F 0 "R?" V 2650 1300 50  0000 C CNN
+F 1 "R" V 2650 1400 50  0000 C CNN
+F 2 "" V 2680 1350 50  0001 C CNN
+F 3 "~" H 2750 1350 50  0001 C CNN
+	1    2750 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L KitchenTimer:SLR0564DBA4BD LED?
+U 1 1 62B5C404
+P 4000 1250
+AR Path="/62B5C404" Ref="LED?"  Part="1" 
+AR Path="/62A7B28F/62B5C404" Ref="LED?"  Part="1" 
+F 0 "LED?" H 4450 1415 50  0000 C CNN
+F 1 "SLR0564DBA4BD" H 4450 1324 50  0000 C CNN
+F 2 "" H 4900 650 50  0001 C CNN
+F 3 "" H 4900 500 50  0001 C CNN
+F 4 "C225950" H 4000 1250 50  0001 C CNN "OC"
+F 5 "" H 4000 1250 50  0001 C CNN "Field5"
+	1    4000 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
