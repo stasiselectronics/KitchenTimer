@@ -622,7 +622,7 @@ AR Path="/62B5C1F0" Ref="C?"  Part="1"
 AR Path="/62A7B28F/62B5C1F0" Ref="C1"  Part="1" 
 F 0 "C1" V 8950 2600 50  0000 L CNN
 F 1 "1uF" V 9050 2600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 2650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8800 2650 50  0001 C CNN
 F 3 "~" H 8800 2650 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 8800 2650 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 8800 2650 50  0001 C CNN "Description"
@@ -661,7 +661,7 @@ AR Path="/62B5C204" Ref="C?"  Part="1"
 AR Path="/62A7B28F/62B5C204" Ref="C2"  Part="1" 
 F 0 "C2" V 8950 4850 50  0000 L CNN
 F 1 "1uF" V 9050 4850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8800 4900 50  0001 C CNN
 F 3 "~" H 8800 4900 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 8800 4900 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 8800 4900 50  0001 C CNN "Description"
