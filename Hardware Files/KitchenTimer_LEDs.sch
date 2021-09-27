@@ -1719,4 +1719,96 @@ F 5 "" H 4000 1250 50  0001 C CNN "Field5"
 	1    4000 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 615EC846
+P 7350 3700
+AR Path="/615EC846" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/615EC846" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 3550 50  0001 C CNN
+F 1 "VDD" H 7365 3873 50  0000 C CNN
+F 2 "" H 7350 3700 50  0001 C CNN
+F 3 "" H 7350 3700 50  0001 C CNN
+	1    7350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615ED3E3
+P 7100 3800
+AR Path="/6151229C/615ED3E3" Ref="R?"  Part="1" 
+AR Path="/615ED3E3" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/615ED3E3" Ref="R?"  Part="1" 
+F 0 "R?" V 7200 3900 50  0000 R CNN
+F 1 "0R" V 7000 3900 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7030 3800 50  0001 C CNN
+F 3 "~" H 7100 3800 50  0001 C CNN
+F 4 "" H 7100 3800 50  0001 C CNN "Manufacturer PN"
+F 5 "0R" H 7100 3800 50  0001 C CNN "Description"
+F 6 "" H 7100 3800 50  0001 C CNN "OC"
+F 7 " " H 7100 3800 50  0001 C CNN "Manufacturer"
+	1    7100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 3700 7350 3800
+Wire Wire Line
+	7350 3800 7250 3800
+Wire Wire Line
+	7350 3800 7350 4100
+Wire Wire Line
+	7350 4100 7250 4100
+Connection ~ 7350 3800
+$Comp
+L Device:R R?
+U 1 1 6160F284
+P 7100 4100
+AR Path="/6151229C/6160F284" Ref="R?"  Part="1" 
+AR Path="/6160F284" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/6160F284" Ref="R?"  Part="1" 
+F 0 "R?" V 7200 4200 50  0000 R CNN
+F 1 "0R" V 7000 4200 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7030 4100 50  0001 C CNN
+F 3 "~" H 7100 4100 50  0001 C CNN
+F 4 "" H 7100 4100 50  0001 C CNN "Manufacturer PN"
+F 5 "0R" H 7100 4100 50  0001 C CNN "Description"
+F 6 "" H 7100 4100 50  0001 C CNN "OC"
+F 7 " " H 7100 4100 50  0001 C CNN "Manufacturer"
+	1    7100 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3800 6800 3800
+Wire Wire Line
+	6800 3800 6800 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6163137D
+P 6800 3700
+F 0 "#PWR?" H 6800 3550 50  0001 C CNN
+F 1 "+3.3V" H 6815 3873 50  0000 C CNN
+F 2 "" H 6800 3700 50  0001 C CNN
+F 3 "" H 6800 3700 50  0001 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 616322FD
+P 6450 3700
+F 0 "#PWR?" H 6450 3550 50  0001 C CNN
+F 1 "+5V" H 6465 3873 50  0000 C CNN
+F 2 "" H 6450 3700 50  0001 C CNN
+F 3 "" H 6450 3700 50  0001 C CNN
+	1    6450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3700 6450 4100
+Wire Wire Line
+	6450 4100 6950 4100
+Text Notes 6300 3400 0    50   ~ 0
+Select Voltage Source for LEDs
+Text Notes 6350 4350 0    50   ~ 0
+Only One Should be Mounted
 $EndSCHEMATC
