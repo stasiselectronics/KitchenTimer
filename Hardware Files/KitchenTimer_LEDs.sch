@@ -229,26 +229,6 @@ Wire Wire Line
 Connection ~ 9500 2650
 Wire Wire Line
 	9500 2650 9500 2750
-$Comp
-L Device:R R?
-U 1 1 62B5C119
-P 9000 4550
-AR Path="/6151229C/62B5C119" Ref="R?"  Part="1" 
-AR Path="/62B5C119" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C119" Ref="R?"  Part="1" 
-F 0 "R?" H 9070 4596 50  0000 L CNN
-F 1 "10k" H 9070 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8930 4550 50  0001 C CNN
-F 3 "~" H 9000 4550 50  0001 C CNN
-F 4 "RC1206JR-0710KL" H 9000 4550 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 1206 Resistor" H 9000 4550 50  0001 C CNN "Description"
-F 6 "C136460" H 9000 4550 50  0001 C CNN "LCSC Order Number"
-F 7 " YAGEO" H 9000 4550 50  0001 C CNN "Manufacturer"
-	1    9000 4550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9100 4300 9000 4300
 Text GLabel 8950 4300 0    50   Input ~ 0
 ShiftRegister_Output_Enable
 $Comp
@@ -267,15 +247,6 @@ F 3 "" H 9500 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 4800 9500 4900
-Wire Wire Line
-	9000 4400 9000 4300
-Connection ~ 9000 4300
-Wire Wire Line
-	9000 4300 8950 4300
-Wire Wire Line
-	9500 4900 9000 4900
-Wire Wire Line
-	9000 4900 9000 4700
 Connection ~ 9500 4900
 Wire Wire Line
 	9500 4900 9500 5000
@@ -699,8 +670,6 @@ F 7 "Samsung Electro-Mechanics" H 8800 4900 50  0001 C CNN "Manufacturer"
 	1    8800 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8900 4900 9000 4900
 $Comp
 L power:+3.3V #PWR?
 U 1 1 62B5C20B
@@ -725,7 +694,6 @@ Wire Notes Line
 	7750 850  7750 5350
 Wire Notes Line
 	11250 850  11250 5350
-Connection ~ 9000 4900
 Text GLabel 8950 1950 0    50   Input ~ 0
 Latch
 Text GLabel 8950 4200 0    50   Input ~ 0
@@ -1811,4 +1779,8 @@ Text Notes 6300 3400 0    50   ~ 0
 Select Voltage Source for LEDs
 Text Notes 6350 4350 0    50   ~ 0
 Only One Should be Mounted
+Wire Wire Line
+	8950 4300 9100 4300
+Wire Wire Line
+	8900 4900 9500 4900
 $EndSCHEMATC
