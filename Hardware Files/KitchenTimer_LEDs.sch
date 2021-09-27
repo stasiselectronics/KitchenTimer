@@ -158,7 +158,7 @@ LED_G
 Text GLabel 10200 4000 2    50   Input ~ 0
 LED_DP
 Text GLabel 10200 4100 2    50   Input ~ 0
-LED_(':')
+Unused_QE
 Text GLabel 10200 4200 2    50   Input ~ 0
 Unused_QF
 Text GLabel 10200 4300 2    50   Input ~ 0
@@ -1264,76 +1264,24 @@ Text GLabel 14100 7300 0    50   Input ~ 0
 LED_G
 Text GLabel 14100 8300 0    50   Input ~ 0
 LED_DP
-Text GLabel 14100 9300 0    50   Input ~ 0
-LED_(':')
-Text GLabel 14850 9000 2    50   Input ~ 0
+Text GLabel 14500 9250 2    50   Input ~ 0
 LED_':'_Sink
 Wire Notes Line
 	13600 9850 15600 9850
 Wire Wire Line
-	14100 9300 14300 9300
-Wire Wire Line
-	14700 9000 14850 9000
-Wire Wire Line
-	14700 9100 14700 9000
-Connection ~ 14300 9300
-Wire Wire Line
-	14300 9550 14350 9550
-Wire Wire Line
-	14300 9300 14300 9550
-Wire Wire Line
-	14400 9300 14300 9300
-Wire Wire Line
-	14700 9550 14700 9600
-Connection ~ 14700 9550
-Wire Wire Line
-	14650 9550 14700 9550
-$Comp
-L Device:R R?
-U 1 1 62B5C34D
-P 14500 9550
-AR Path="/6151229C/62B5C34D" Ref="R?"  Part="1" 
-AR Path="/62B5C34D" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C34D" Ref="R?"  Part="1" 
-F 0 "R?" V 14600 9650 50  0000 R CNN
-F 1 "10k" V 14400 9650 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14430 9550 50  0001 C CNN
-F 3 "~" H 14500 9550 50  0001 C CNN
-F 4 "RC1206JR-0710KL" H 14500 9550 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 1206 Resistor" H 14500 9550 50  0001 C CNN "Description"
-F 6 "C136460" H 14500 9550 50  0001 C CNN "LCSC Order Number"
-F 7 " YAGEO" H 14500 9550 50  0001 C CNN "Manufacturer"
-	1    14500 9550
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	14700 9500 14700 9550
+	14350 9250 14500 9250
 $Comp
 L power:GND #PWR?
 U 1 1 62B5C354
-P 14700 9600
+P 14350 9350
 AR Path="/6151229C/62B5C354" Ref="#PWR?"  Part="1" 
 AR Path="/62B5C354" Ref="#PWR?"  Part="1" 
 AR Path="/62A7B28F/62B5C354" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14700 9350 50  0001 C CNN
-F 1 "GND" H 14705 9427 50  0000 C CNN
-F 2 "" H 14700 9600 50  0001 C CNN
-F 3 "" H 14700 9600 50  0001 C CNN
-	1    14700 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q?
-U 1 1 62B5C35B
-P 14600 9300
-AR Path="/62B5C35B" Ref="Q?"  Part="1" 
-AR Path="/62A7B28F/62B5C35B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 14804 9346 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 14804 9255 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 9400 50  0001 C CNN
-F 3 "~" H 14600 9300 50  0001 C CNN
-F 4 "C353086" H 14600 9300 50  0001 C CNN "OC"
-	1    14600 9300
+F 0 "#PWR?" H 14350 9100 50  0001 C CNN
+F 1 "GND" H 14355 9177 50  0000 C CNN
+F 2 "" H 14350 9350 50  0001 C CNN
+F 3 "" H 14350 9350 50  0001 C CNN
+	1    14350 9350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1783,4 +1731,6 @@ Wire Wire Line
 	8950 4300 9100 4300
 Wire Wire Line
 	8900 4900 9500 4900
+Wire Wire Line
+	14350 9250 14350 9350
 $EndSCHEMATC
