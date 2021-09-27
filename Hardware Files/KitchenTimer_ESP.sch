@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 5
+Sheet 3 4
 Title "Kitchen Timer"
 Date ""
 Rev "A01"
@@ -826,4 +826,282 @@ Wire Wire Line
 Connection ~ 3050 1300
 Wire Wire Line
 	3050 1300 3000 1300
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 615C7BB5
+P 12000 2750
+AR Path="/6151229C/615C7BB5" Ref="SW?"  Part="1" 
+AR Path="/615C7BB5" Ref="SW?"  Part="1" 
+AR Path="/62A7BECE/615C7BB5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 12000 3035 50  0000 C CNN
+F 1 "SW_Push_Dual" H 12000 2944 50  0000 C CNN
+F 2 "8Bit_WiFi_Visualizer_Footprints:PTS645SK50SMTR92LFS" H 12000 2950 50  0001 C CNN
+F 3 "~" H 12000 2950 50  0001 C CNN
+F 4 "1TS005F-2500-5001" H 12000 2750 50  0001 C CNN "Manufacturer PN"
+F 5 "C255812" H 12000 2750 50  0001 C CNN "LCSC Order Number"
+F 6 "SPST 50mA @ 12VDC Vertical Round Button SMD,6x6x5mm Tactile Switches RoHS" H 12000 2750 50  0001 C CNN "Description"
+F 7 "Hongyuan Precision" H 12000 2750 50  0001 C CNN "Manufacturer"
+	1    12000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615C7BBE
+P 12300 3050
+AR Path="/6151229C/615C7BBE" Ref="#PWR?"  Part="1" 
+AR Path="/615C7BBE" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7BBE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12300 2800 50  0001 C CNN
+F 1 "GND" H 12305 2877 50  0000 C CNN
+F 2 "" H 12300 3050 50  0001 C CNN
+F 3 "" H 12300 3050 50  0001 C CNN
+	1    12300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 3050 12300 2950
+Wire Wire Line
+	12300 2950 12200 2950
+Wire Wire Line
+	12200 2750 12300 2750
+Wire Wire Line
+	12300 2750 12300 2950
+Connection ~ 12300 2950
+Wire Wire Line
+	11800 2750 11700 2750
+Wire Wire Line
+	11700 2750 11700 2950
+Wire Wire Line
+	11700 2950 11800 2950
+Connection ~ 11700 2750
+$Comp
+L Device:C_Small C?
+U 1 1 615C7BD1
+P 11400 2950
+AR Path="/6151229C/615C7BD1" Ref="C?"  Part="1" 
+AR Path="/615C7BD1" Ref="C?"  Part="1" 
+AR Path="/62A7BECE/615C7BD1" Ref="C?"  Part="1" 
+F 0 "C?" H 11492 2996 50  0000 L CNN
+F 1 "1uF" H 11492 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 11400 2950 50  0001 C CNN
+F 3 "~" H 11400 2950 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 11400 2950 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 11400 2950 50  0001 C CNN "Description"
+F 6 "C13832" H 11400 2950 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 11400 2950 50  0001 C CNN "Manufacturer"
+	1    11400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 2850 11400 2750
+Wire Wire Line
+	11400 2750 11700 2750
+Wire Wire Line
+	11400 3050 11400 3200
+$Comp
+L power:GND #PWR?
+U 1 1 615C7BDA
+P 11400 3200
+AR Path="/6151229C/615C7BDA" Ref="#PWR?"  Part="1" 
+AR Path="/615C7BDA" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7BDA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11400 2950 50  0001 C CNN
+F 1 "GND" H 11405 3027 50  0000 C CNN
+F 2 "" H 11400 3200 50  0001 C CNN
+F 3 "" H 11400 3200 50  0001 C CNN
+	1    11400 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 11400 2750
+$Comp
+L Device:R R?
+U 1 1 615C7BE5
+P 11450 2600
+AR Path="/6151229C/615C7BE5" Ref="R?"  Part="1" 
+AR Path="/615C7BE5" Ref="R?"  Part="1" 
+AR Path="/62A7BECE/615C7BE5" Ref="R?"  Part="1" 
+F 0 "R?" V 11250 2500 50  0000 L CNN
+F 1 "10k" V 11350 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 11380 2600 50  0001 C CNN
+F 3 "~" H 11450 2600 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 11450 2600 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 11450 2600 50  0001 C CNN "Description"
+F 6 "C136460" H 11450 2600 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 11450 2600 50  0001 C CNN "Manufacturer"
+	1    11450 2600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	11600 2600 11700 2600
+Wire Wire Line
+	11300 2600 11200 2600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 615C7BED
+P 11200 2400
+AR Path="/6151229C/615C7BED" Ref="#PWR?"  Part="1" 
+AR Path="/615C7BED" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7BED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 2250 50  0001 C CNN
+F 1 "+3.3V" H 11215 2573 50  0000 C CNN
+F 2 "" H 11200 2400 50  0001 C CNN
+F 3 "" H 11200 2400 50  0001 C CNN
+	1    11200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 2400 11200 2600
+Wire Wire Line
+	11700 2600 11700 2750
+Wire Wire Line
+	11200 2750 11400 2750
+Text GLabel 11200 2750 0    50   Input ~ 0
+BTN_Up
+Wire Notes Line
+	10700 2100 12650 2100
+Wire Notes Line
+	12650 2100 12650 3500
+Wire Notes Line
+	12650 3500 10700 3500
+Wire Notes Line
+	10700 2100 10700 3500
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 615C7BFF
+P 14050 2750
+AR Path="/6151229C/615C7BFF" Ref="SW?"  Part="1" 
+AR Path="/615C7BFF" Ref="SW?"  Part="1" 
+AR Path="/62A7BECE/615C7BFF" Ref="SW?"  Part="1" 
+F 0 "SW?" H 14050 3035 50  0000 C CNN
+F 1 "SW_Push_Dual" H 14050 2944 50  0000 C CNN
+F 2 "8Bit_WiFi_Visualizer_Footprints:PTS645SK50SMTR92LFS" H 14050 2950 50  0001 C CNN
+F 3 "~" H 14050 2950 50  0001 C CNN
+F 4 "1TS005F-2500-5001" H 14050 2750 50  0001 C CNN "Manufacturer PN"
+F 5 "C255812" H 14050 2750 50  0001 C CNN "LCSC Order Number"
+F 6 "SPST 50mA @ 12VDC Vertical Round Button SMD,6x6x5mm Tactile Switches RoHS" H 14050 2750 50  0001 C CNN "Description"
+F 7 "Hongyuan Precision" H 14050 2750 50  0001 C CNN "Manufacturer"
+	1    14050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615C7C05
+P 14350 3050
+AR Path="/6151229C/615C7C05" Ref="#PWR?"  Part="1" 
+AR Path="/615C7C05" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7C05" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14350 2800 50  0001 C CNN
+F 1 "GND" H 14355 2877 50  0000 C CNN
+F 2 "" H 14350 3050 50  0001 C CNN
+F 3 "" H 14350 3050 50  0001 C CNN
+	1    14350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 3050 14350 2950
+Wire Wire Line
+	14350 2950 14250 2950
+Wire Wire Line
+	14250 2750 14350 2750
+Wire Wire Line
+	14350 2750 14350 2950
+Connection ~ 14350 2950
+Wire Wire Line
+	13850 2750 13750 2750
+Wire Wire Line
+	13750 2750 13750 2950
+Wire Wire Line
+	13750 2950 13850 2950
+Connection ~ 13750 2750
+$Comp
+L Device:C_Small C?
+U 1 1 615C7C18
+P 13450 2950
+AR Path="/6151229C/615C7C18" Ref="C?"  Part="1" 
+AR Path="/615C7C18" Ref="C?"  Part="1" 
+AR Path="/62A7BECE/615C7C18" Ref="C?"  Part="1" 
+F 0 "C?" H 13542 2996 50  0000 L CNN
+F 1 "1uF" H 13542 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13450 2950 50  0001 C CNN
+F 3 "~" H 13450 2950 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 13450 2950 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 13450 2950 50  0001 C CNN "Description"
+F 6 "C13832" H 13450 2950 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 13450 2950 50  0001 C CNN "Manufacturer"
+	1    13450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2850 13450 2750
+Wire Wire Line
+	13450 2750 13750 2750
+Wire Wire Line
+	13450 3050 13450 3200
+$Comp
+L power:GND #PWR?
+U 1 1 615C7C21
+P 13450 3200
+AR Path="/6151229C/615C7C21" Ref="#PWR?"  Part="1" 
+AR Path="/615C7C21" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7C21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13450 2950 50  0001 C CNN
+F 1 "GND" H 13455 3027 50  0000 C CNN
+F 2 "" H 13450 3200 50  0001 C CNN
+F 3 "" H 13450 3200 50  0001 C CNN
+	1    13450 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 13450 2750
+$Comp
+L Device:R R?
+U 1 1 615C7C2C
+P 13500 2600
+AR Path="/6151229C/615C7C2C" Ref="R?"  Part="1" 
+AR Path="/615C7C2C" Ref="R?"  Part="1" 
+AR Path="/62A7BECE/615C7C2C" Ref="R?"  Part="1" 
+F 0 "R?" V 13300 2500 50  0000 L CNN
+F 1 "10k" V 13400 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 13430 2600 50  0001 C CNN
+F 3 "~" H 13500 2600 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 13500 2600 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 13500 2600 50  0001 C CNN "Description"
+F 6 "C136460" H 13500 2600 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 13500 2600 50  0001 C CNN "Manufacturer"
+	1    13500 2600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13650 2600 13750 2600
+Wire Wire Line
+	13350 2600 13250 2600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 615C7C34
+P 13250 2400
+AR Path="/6151229C/615C7C34" Ref="#PWR?"  Part="1" 
+AR Path="/615C7C34" Ref="#PWR?"  Part="1" 
+AR Path="/62A7BECE/615C7C34" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13250 2250 50  0001 C CNN
+F 1 "+3.3V" H 13265 2573 50  0000 C CNN
+F 2 "" H 13250 2400 50  0001 C CNN
+F 3 "" H 13250 2400 50  0001 C CNN
+	1    13250 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 2400 13250 2600
+Wire Wire Line
+	13750 2600 13750 2750
+Wire Wire Line
+	13250 2750 13450 2750
+Text GLabel 13250 2750 0    50   Input ~ 0
+BTN_Down
+Wire Notes Line
+	12750 2100 14550 2100
+Wire Notes Line
+	14550 2100 14550 3500
+Wire Notes Line
+	14550 3500 12750 3500
+Wire Notes Line
+	12750 2100 12750 3500
 $EndSCHEMATC
