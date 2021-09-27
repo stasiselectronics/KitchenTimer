@@ -158,7 +158,7 @@ LED_G
 Text GLabel 10200 4000 2    50   Input ~ 0
 LED_DP
 Text GLabel 10200 4100 2    50   Input ~ 0
-Unused_QE
+LED_(':')
 Text GLabel 10200 4200 2    50   Input ~ 0
 Unused_QF
 Text GLabel 10200 4300 2    50   Input ~ 0
@@ -1477,8 +1477,6 @@ Wire Wire Line
 	6700 1550 6600 1550
 Wire Wire Line
 	6700 1350 6600 1350
-Text GLabel 6700 2950 2    50   Input ~ 0
-LED_':'_Sink
 Text GLabel 6700 2750 2    50   Input ~ 0
 LED_DP_Sink
 Text GLabel 6700 2550 2    50   Input ~ 0
@@ -1665,4 +1663,6 @@ Wire Wire Line
 Wire Wire Line
 	14350 9100 14350 9250
 Connection ~ 14350 9250
+Text GLabel 6700 2950 2    50   Input ~ 0
+LED_':'_Sink
 $EndSCHEMATC
