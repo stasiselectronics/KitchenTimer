@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
-Title ""
+Sheet 1 5
+Title "Kitchen Timer"
 Date ""
 Rev "A01"
 Comp ""
-Comment1 "{GithubURL}"
-Comment2 "{License}"
+Comment1 "https://github.com/stasiselectronics/KitchenTimer"
+Comment2 "Cern Open Hardware License - Strongly Reciprocal"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -31,4 +31,6 @@ U 62A7E475
 F0 "Battery Boost" 50
 F1 "KitchenTimer_Battery.sch" 50
 $EndSheet
+Text Notes 11100 1300 0    500  ~ 0
+Cover Sheet
 $EndSCHEMATC

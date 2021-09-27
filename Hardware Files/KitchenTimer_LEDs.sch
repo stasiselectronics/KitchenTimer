@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 4
-Title ""
+Sheet 2 5
+Title "Kitchen Timer"
 Date ""
-Rev ""
+Rev "A01"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "https://github.com/stasiselectronics/KitchenTimer"
+Comment2 "Cern Open Hardware License - Strongly Reciprocal"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -1,4 +1,4 @@
-update=09/27/21 10:08:16
+update=09/27/21 10:23:21
 version=1
 last_client=kicad
 [general]
@@ -34,10 +34,10 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Libraries/Templates/stasis_a3.kicad_wks
-PlotDirectoryName=Output Files/Fabrication Files/
+PlotDirectoryName=Output Files/Schematics/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=3000
 ERC_TestSimilarLabels=1
