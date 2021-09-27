@@ -1307,8 +1307,6 @@ Wire Notes Line
 Wire Notes Line
 	1500 850  1500 3100
 Wire Wire Line
-	2900 1350 3900 1350
-Wire Wire Line
 	3900 1750 3700 1750
 Wire Wire Line
 	3900 1650 3500 1650
@@ -1319,19 +1317,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 2150 3700 1750
 Wire Wire Line
-	2900 2150 3700 2150
-Wire Wire Line
 	3500 1950 3500 1650
-Wire Wire Line
-	2900 1950 3500 1950
 Wire Wire Line
 	3300 1750 3300 1550
 Wire Wire Line
-	2900 1750 3300 1750
-Wire Wire Line
 	3100 1550 3100 1450
-Wire Wire Line
-	2900 1550 3100 1550
 Wire Wire Line
 	5000 1450 6150 1450
 Wire Wire Line
@@ -1535,14 +1525,6 @@ Wire Wire Line
 	6300 2750 5250 2750
 Wire Wire Line
 	5250 2750 5250 2050
-Wire Wire Line
-	2600 1550 2450 1550
-Wire Wire Line
-	2450 1750 2600 1750
-Wire Wire Line
-	2600 1950 2450 1950
-Wire Wire Line
-	2450 2150 2600 2150
 Text GLabel 2450 2150 0    50   Input ~ 0
 Char_(':')_Power
 Text GLabel 2450 1950 0    50   Input ~ 0
@@ -1551,75 +1533,8 @@ Text GLabel 2450 1750 0    50   Input ~ 0
 Char_3_Power
 Text GLabel 2450 1550 0    50   Input ~ 0
 Char_2_Power
-Wire Wire Line
-	2450 1350 2600 1350
 Text GLabel 2450 1350 0    50   Input ~ 0
 Char_1_Power
-$Comp
-L Device:R R?
-U 1 1 62B5C3E4
-P 2750 2150
-AR Path="/62B5C3E4" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C3E4" Ref="R5"  Part="1" 
-F 0 "R5" V 2650 2100 50  0000 C CNN
-F 1 "R" V 2650 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 2150 50  0001 C CNN
-F 3 "~" H 2750 2150 50  0001 C CNN
-	1    2750 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62B5C3EA
-P 2750 1950
-AR Path="/62B5C3EA" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C3EA" Ref="R4"  Part="1" 
-F 0 "R4" V 2650 1900 50  0000 C CNN
-F 1 "R" V 2650 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 1950 50  0001 C CNN
-F 3 "~" H 2750 1950 50  0001 C CNN
-	1    2750 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62B5C3F0
-P 2750 1750
-AR Path="/62B5C3F0" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C3F0" Ref="R3"  Part="1" 
-F 0 "R3" V 2650 1700 50  0000 C CNN
-F 1 "R" V 2650 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 1750 50  0001 C CNN
-F 3 "~" H 2750 1750 50  0001 C CNN
-	1    2750 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62B5C3F6
-P 2750 1550
-AR Path="/62B5C3F6" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C3F6" Ref="R2"  Part="1" 
-F 0 "R2" V 2650 1500 50  0000 C CNN
-F 1 "R" V 2650 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 1550 50  0001 C CNN
-F 3 "~" H 2750 1550 50  0001 C CNN
-	1    2750 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62B5C3FC
-P 2750 1350
-AR Path="/62B5C3FC" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/62B5C3FC" Ref="R1"  Part="1" 
-F 0 "R1" V 2650 1300 50  0000 C CNN
-F 1 "R" V 2650 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 1350 50  0001 C CNN
-F 3 "~" H 2750 1350 50  0001 C CNN
-	1    2750 1350
-	0    1    1    0   
-$EndComp
 $Comp
 L KitchenTimer:SLR0564DBA4BD LED?
 U 1 1 62B5C404
@@ -1733,4 +1648,14 @@ Wire Wire Line
 	8900 4900 9500 4900
 Wire Wire Line
 	14350 9250 14350 9350
+Wire Wire Line
+	2450 1350 3900 1350
+Wire Wire Line
+	2450 1550 3100 1550
+Wire Wire Line
+	2450 1750 3300 1750
+Wire Wire Line
+	2450 1950 3500 1950
+Wire Wire Line
+	2450 2150 3700 2150
 $EndSCHEMATC
