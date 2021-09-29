@@ -1697,20 +1697,20 @@ Wire Wire Line
 $Comp
 L 74xx:74HC595 U?
 U 1 1 61631070
-P 19400 3150
+P 19550 500
 AR Path="/6151229C/61631070" Ref="U?"  Part="1" 
 AR Path="/61631070" Ref="U?"  Part="1" 
 AR Path="/62A7B28F/61631070" Ref="U9"  Part="1" 
-F 0 "U9" H 19700 3825 50  0000 C CNN
-F 1 "74HC595" H 19700 3725 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 19400 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 19400 3150 50  0001 C CNN
-F 4 "74HC595D,118" H 19400 3150 50  0001 C CNN "Manufacturer PN"
-F 5 "Shift Register SOIC 16" H 19400 3150 50  0001 C CNN "Description"
-F 6 "C5947" H 19400 3150 50  0001 C CNN "LCSC Order Number"
-F 7 "Nexperia" H 19400 3150 50  0001 C CNN "Manufacturer"
-	1    19400 3150
-	-1   0    0    -1  
+F 0 "U9" H 19850 1175 50  0000 C CNN
+F 1 "74HC595" H 19850 1075 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 19550 500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 19550 500 50  0001 C CNN
+F 4 "74HC595D,118" H 19550 500 50  0001 C CNN "Manufacturer PN"
+F 5 "Shift Register SOIC 16" H 19550 500 50  0001 C CNN "Description"
+F 6 "C5947" H 19550 500 50  0001 C CNN "LCSC Order Number"
+F 7 "Nexperia" H 19550 500 50  0001 C CNN "Manufacturer"
+	1    19550 500 
+	1    0    0    -1  
 $EndComp
 Text GLabel 23350 2750 2    50   Input ~ 0
 LED_A
@@ -1748,38 +1748,38 @@ F 3 "" H 22650 3650 50  0001 C CNN
 	1    22650 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 18850 2750 0    50   Input ~ 0
+Text GLabel 20100 100  2    50   Input ~ 0
 LED_G
 Wire Wire Line
-	18850 2750 19000 2750
-Text GLabel 18850 2850 0    50   Input ~ 0
+	20100 100  19950 100 
+Text GLabel 20100 200  2    50   Input ~ 0
 LED_C
 Wire Wire Line
-	18850 2850 19000 2850
-Text GLabel 18850 2950 0    50   Input ~ 0
+	20100 200  19950 200 
+Text GLabel 20100 300  2    50   Input ~ 0
 LED_DP
 Wire Wire Line
-	18850 2950 19000 2950
-Text GLabel 18850 3050 0    50   Input ~ 0
+	20100 300  19950 300 
+Text GLabel 20100 400  2    50   Input ~ 0
 LED_D
 Wire Wire Line
-	18850 3050 19000 3050
-Text GLabel 18850 3150 0    50   Input ~ 0
+	20100 400  19950 400 
+Text GLabel 20100 500  2    50   Input ~ 0
 LED_E
 Wire Wire Line
-	18850 3150 19000 3150
-Text GLabel 18850 3250 0    50   Input ~ 0
+	20100 500  19950 500 
+Text GLabel 20100 600  2    50   Input ~ 0
 LED_A
 Wire Wire Line
-	18850 3250 19000 3250
-Text GLabel 18850 3350 0    50   Input ~ 0
+	20100 600  19950 600 
+Text GLabel 20100 700  2    50   Input ~ 0
 LED_F
 Wire Wire Line
-	18850 3350 19000 3350
-Text GLabel 18850 3450 0    50   Input ~ 0
+	20100 700  19950 700 
+Text GLabel 20100 800  2    50   Input ~ 0
 LED_B
 Wire Wire Line
-	18850 3450 19000 3450
+	20100 800  19950 800 
 Text GLabel 21200 3150 0    50   Input ~ 0
 Char_(':')_Power
 Text GLabel 21200 3050 0    50   Input ~ 0
@@ -2321,4 +2321,129 @@ Wire Wire Line
 	21650 5550 21500 5550
 Wire Wire Line
 	21650 5650 21500 5650
+$Comp
+L Device:R R?
+U 1 1 615699C3
+P 19050 950
+AR Path="/6151229C/615699C3" Ref="R?"  Part="1" 
+AR Path="/615699C3" Ref="R?"  Part="1" 
+AR Path="/62A7B28F/615699C3" Ref="R?"  Part="1" 
+F 0 "R?" H 19120 996 50  0000 L CNN
+F 1 "10k" H 19120 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 18980 950 50  0001 C CNN
+F 3 "~" H 19050 950 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 19050 950 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 1206 Resistor" H 19050 950 50  0001 C CNN "Description"
+F 6 "C136460" H 19050 950 50  0001 C CNN "LCSC Order Number"
+F 7 " YAGEO" H 19050 950 50  0001 C CNN "Manufacturer"
+	1    19050 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 615699D3
+P 19550 -200
+AR Path="/6151229C/615699D3" Ref="#PWR?"  Part="1" 
+AR Path="/615699D3" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/615699D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19550 -350 50  0001 C CNN
+F 1 "+3.3V" H 19565 -27 50  0000 C CNN
+F 2 "" H 19550 -200 50  0001 C CNN
+F 3 "" H 19550 -200 50  0001 C CNN
+	1    19550 -200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19550 -200 19550 -100
+Wire Wire Line
+	19950 1000 20250 1000
+Text GLabel 20250 1000 2    50   Input ~ 0
+ShiftRegister_1_overflow
+Wire Wire Line
+	19150 100  19000 100 
+Wire Wire Line
+	19150 300  19000 300 
+Wire Wire Line
+	19150 400  19000 400 
+Wire Wire Line
+	19150 600  19000 600 
+Wire Wire Line
+	19150 700  19050 700 
+Text GLabel 19000 100  0    50   Input ~ 0
+Data
+Text GLabel 19000 300  0    50   Input ~ 0
+Clock
+Text GLabel 19000 400  0    50   Input ~ 0
+!Clear
+Text GLabel 19000 700  0    50   Input ~ 0
+ShiftRegister_Output_Enable
+$Comp
+L power:GND #PWR?
+U 1 1 615699F4
+P 19550 1400
+AR Path="/6151229C/615699F4" Ref="#PWR?"  Part="1" 
+AR Path="/615699F4" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/615699F4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19550 1150 50  0001 C CNN
+F 1 "GND" H 19555 1227 50  0000 C CNN
+F 2 "" H 19550 1400 50  0001 C CNN
+F 3 "" H 19550 1400 50  0001 C CNN
+	1    19550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19550 1200 19550 1300
+Wire Wire Line
+	19050 800  19050 700 
+Connection ~ 19050 700 
+Wire Wire Line
+	19050 700  19000 700 
+Wire Wire Line
+	19550 1300 19050 1300
+Wire Wire Line
+	19050 1300 19050 1100
+Connection ~ 19550 1300
+Wire Wire Line
+	19550 1300 19550 1400
+$Comp
+L Device:C_Small C?
+U 1 1 61569A07
+P 18850 1300
+AR Path="/6151229C/61569A07" Ref="C?"  Part="1" 
+AR Path="/61569A07" Ref="C?"  Part="1" 
+AR Path="/62A7B28F/61569A07" Ref="C?"  Part="1" 
+F 0 "C?" V 19000 1250 50  0000 L CNN
+F 1 "1uF" V 19100 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 18850 1300 50  0001 C CNN
+F 3 "~" H 18850 1300 50  0001 C CNN
+F 4 "CL31B105KCHNNNE" H 18850 1300 50  0001 C CNN "Manufacturer PN"
+F 5 "1 uF 1206 Capacitor" H 18850 1300 50  0001 C CNN "Description"
+F 6 "C13832" H 18850 1300 50  0001 C CNN "LCSC Order Number"
+F 7 "Samsung Electro-Mechanics" H 18850 1300 50  0001 C CNN "Manufacturer"
+	1    18850 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18950 1300 19050 1300
+Connection ~ 19050 1300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61569A0F
+P 18600 1250
+AR Path="/6151229C/61569A0F" Ref="#PWR?"  Part="1" 
+AR Path="/61569A0F" Ref="#PWR?"  Part="1" 
+AR Path="/62A7B28F/61569A0F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18600 1100 50  0001 C CNN
+F 1 "+3.3V" H 18615 1423 50  0000 C CNN
+F 2 "" H 18600 1250 50  0001 C CNN
+F 3 "" H 18600 1250 50  0001 C CNN
+	1    18600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18600 1250 18600 1300
+Wire Wire Line
+	18600 1300 18750 1300
+Text GLabel 19000 600  0    50   Input ~ 0
+Latch
 $EndSCHEMATC
