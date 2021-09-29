@@ -137,11 +137,11 @@ AR Path="/62B7F588" Ref="C?"  Part="1"
 AR Path="/62A7BECE/62B7F588" Ref="C3"  Part="1" 
 F 0 "C3" V 1550 2500 50  0000 L CNN
 F 1 "1uF" V 1650 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1400 2550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1400 2550 50  0001 C CNN
 F 3 "~" H 1400 2550 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 1400 2550 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 1400 2550 50  0001 C CNN "Description"
-F 6 "C13832" H 1400 2550 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 1400 2550 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 1400 2550 50  0001 C CNN "Manufacturer"
 	1    1400 2550
 	0    1    1    0   
@@ -235,24 +235,6 @@ F 7 "Hongyuan Precision" H 5750 1550 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 62B7F5C1
-P 5200 1400
-AR Path="/6151229C/62B7F5C1" Ref="R?"  Part="1" 
-AR Path="/62B7F5C1" Ref="R?"  Part="1" 
-AR Path="/62A7BECE/62B7F5C1" Ref="R31"  Part="1" 
-F 0 "R31" V 5000 1300 50  0000 L CNN
-F 1 "10k" V 5100 1300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5130 1400 50  0001 C CNN
-F 3 "~" H 5200 1400 50  0001 C CNN
-F 4 "RC1206JR-0710KL" H 5200 1400 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 1206 Resistor" H 5200 1400 50  0001 C CNN "Description"
-F 6 "C136460" H 5200 1400 50  0001 C CNN "LCSC Order Number"
-F 7 " YAGEO" H 5200 1400 50  0001 C CNN "Manufacturer"
-	1    5200 1400
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 62B7F5C7
 P 6050 1650
@@ -285,69 +267,6 @@ Wire Wire Line
 	5950 1550 6050 1550
 Wire Wire Line
 	6050 1550 6050 1650
-Wire Wire Line
-	5350 1400 5450 1400
-Wire Wire Line
-	5450 1400 5450 1550
-Wire Wire Line
-	5450 1550 5550 1550
-Wire Wire Line
-	5050 1400 4950 1400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 62B7F5DA
-P 4950 1200
-AR Path="/6151229C/62B7F5DA" Ref="#PWR?"  Part="1" 
-AR Path="/62B7F5DA" Ref="#PWR?"  Part="1" 
-AR Path="/62A7BECE/62B7F5DA" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 4950 1050 50  0001 C CNN
-F 1 "+3.3V" H 4965 1373 50  0000 C CNN
-F 2 "" H 4950 1200 50  0001 C CNN
-F 3 "" H 4950 1200 50  0001 C CNN
-	1    4950 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 1200 4950 1400
-$Comp
-L Device:C_Small C?
-U 1 1 62B7F5E5
-P 5450 1800
-AR Path="/6151229C/62B7F5E5" Ref="C?"  Part="1" 
-AR Path="/62B7F5E5" Ref="C?"  Part="1" 
-AR Path="/62A7BECE/62B7F5E5" Ref="C5"  Part="1" 
-F 0 "C5" H 5542 1846 50  0000 L CNN
-F 1 "1uF" H 5542 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5450 1800 50  0001 C CNN
-F 3 "~" H 5450 1800 50  0001 C CNN
-F 4 "CL31B105KCHNNNE" H 5450 1800 50  0001 C CNN "Manufacturer PN"
-F 5 "1 uF 1206 Capacitor" H 5450 1800 50  0001 C CNN "Description"
-F 6 "C13832" H 5450 1800 50  0001 C CNN "LCSC Order Number"
-F 7 "Samsung Electro-Mechanics" H 5450 1800 50  0001 C CNN "Manufacturer"
-	1    5450 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 1550 5450 1700
-Connection ~ 5450 1550
-$Comp
-L power:GND #PWR?
-U 1 1 62B7F5ED
-P 5450 2000
-AR Path="/6151229C/62B7F5ED" Ref="#PWR?"  Part="1" 
-AR Path="/62B7F5ED" Ref="#PWR?"  Part="1" 
-AR Path="/62A7BECE/62B7F5ED" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 5450 1750 50  0001 C CNN
-F 1 "GND" H 5455 1827 50  0000 C CNN
-F 2 "" H 5450 2000 50  0001 C CNN
-F 3 "" H 5450 2000 50  0001 C CNN
-	1    5450 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 1900 5450 2000
-Wire Wire Line
-	5450 1550 4950 1550
 Text GLabel 4950 1550 0    50   Input ~ 0
 ESP_Boot
 Wire Notes Line
@@ -445,11 +364,11 @@ AR Path="/62B7F625" Ref="C?"  Part="1"
 AR Path="/62A7BECE/62B7F625" Ref="C6"  Part="1" 
 F 0 "C6" H 5542 3346 50  0000 L CNN
 F 1 "1uF" H 5542 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5450 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5450 3300 50  0001 C CNN
 F 3 "~" H 5450 3300 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 5450 3300 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 5450 3300 50  0001 C CNN "Description"
-F 6 "C13832" H 5450 3300 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 5450 3300 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 5450 3300 50  0001 C CNN "Manufacturer"
 	1    5450 3300
 	1    0    0    -1  
@@ -584,11 +503,11 @@ AR Path="/62B7F669" Ref="C?"  Part="1"
 AR Path="/62A7BECE/62B7F669" Ref="C7"  Part="1" 
 F 0 "C7" H 7292 2996 50  0000 L CNN
 F 1 "1uF" H 7292 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7200 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7200 2950 50  0001 C CNN
 F 3 "~" H 7200 2950 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 7200 2950 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 7200 2950 50  0001 C CNN "Description"
-F 6 "C13832" H 7200 2950 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 7200 2950 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 7200 2950 50  0001 C CNN "Manufacturer"
 	1    7200 2950
 	1    0    0    -1  
@@ -723,11 +642,11 @@ AR Path="/62B7F6B0" Ref="C?"  Part="1"
 AR Path="/62A7BECE/62B7F6B0" Ref="C8"  Part="1" 
 F 0 "C8" H 9592 2996 50  0000 L CNN
 F 1 "1uF" H 9592 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9500 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9500 2950 50  0001 C CNN
 F 3 "~" H 9500 2950 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 9500 2950 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 9500 2950 50  0001 C CNN "Description"
-F 6 "C13832" H 9500 2950 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 9500 2950 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 9500 2950 50  0001 C CNN "Manufacturer"
 	1    9500 2950
 	1    0    0    -1  
@@ -883,11 +802,11 @@ AR Path="/615C7BD1" Ref="C?"  Part="1"
 AR Path="/62A7BECE/615C7BD1" Ref="C9"  Part="1" 
 F 0 "C9" H 11492 2996 50  0000 L CNN
 F 1 "1uF" H 11492 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11400 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11400 2950 50  0001 C CNN
 F 3 "~" H 11400 2950 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 11400 2950 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 11400 2950 50  0001 C CNN "Description"
-F 6 "C13832" H 11400 2950 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 11400 2950 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 11400 2950 50  0001 C CNN "Manufacturer"
 	1    11400 2950
 	1    0    0    -1  
@@ -1022,11 +941,11 @@ AR Path="/615C7C18" Ref="C?"  Part="1"
 AR Path="/62A7BECE/615C7C18" Ref="C10"  Part="1" 
 F 0 "C10" H 13542 2996 50  0000 L CNN
 F 1 "1uF" H 13542 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 13450 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13450 2950 50  0001 C CNN
 F 3 "~" H 13450 2950 50  0001 C CNN
 F 4 "CL31B105KCHNNNE" H 13450 2950 50  0001 C CNN "Manufacturer PN"
 F 5 "1 uF 1206 Capacitor" H 13450 2950 50  0001 C CNN "Description"
-F 6 "C13832" H 13450 2950 50  0001 C CNN "LCSC Order Number"
+F 6 "" H 13450 2950 50  0001 C CNN "LCSC Order Number"
 F 7 "Samsung Electro-Mechanics" H 13450 2950 50  0001 C CNN "Manufacturer"
 	1    13450 2950
 	1    0    0    -1  
@@ -1104,4 +1023,6 @@ Wire Notes Line
 	14550 3500 12750 3500
 Wire Notes Line
 	12750 2100 12750 3500
+Wire Wire Line
+	4950 1550 5550 1550
 $EndSCHEMATC
