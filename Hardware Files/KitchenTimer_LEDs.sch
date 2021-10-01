@@ -20,98 +20,6 @@ Wire Notes Line
 Wire Notes Line
 	11250 850  11250 5350
 $Comp
-L power:VDD #PWR?
-U 1 1 615EC846
-P 7350 3700
-AR Path="/615EC846" Ref="#PWR?"  Part="1" 
-AR Path="/62A7B28F/615EC846" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 7350 3550 50  0001 C CNN
-F 1 "VDD" H 7365 3873 50  0000 C CNN
-F 2 "" H 7350 3700 50  0001 C CNN
-F 3 "" H 7350 3700 50  0001 C CNN
-	1    7350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 615ED3E3
-P 7100 3800
-AR Path="/6151229C/615ED3E3" Ref="R?"  Part="1" 
-AR Path="/615ED3E3" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/615ED3E3" Ref="R15"  Part="1" 
-F 0 "R15" V 7200 3900 50  0000 R CNN
-F 1 "0R" V 7000 3900 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7030 3800 50  0001 C CNN
-F 3 "~" H 7100 3800 50  0001 C CNN
-F 4 "" H 7100 3800 50  0001 C CNN "Manufacturer PN"
-F 5 "0R" H 7100 3800 50  0001 C CNN "Description"
-F 6 "" H 7100 3800 50  0001 C CNN "OC"
-F 7 " " H 7100 3800 50  0001 C CNN "Manufacturer"
-	1    7100 3800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7350 3700 7350 3800
-Wire Wire Line
-	7350 3800 7250 3800
-Wire Wire Line
-	7350 3800 7350 4100
-Wire Wire Line
-	7350 4100 7250 4100
-Connection ~ 7350 3800
-$Comp
-L Device:R R?
-U 1 1 6160F284
-P 7100 4100
-AR Path="/6151229C/6160F284" Ref="R?"  Part="1" 
-AR Path="/6160F284" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/6160F284" Ref="R16"  Part="1" 
-F 0 "R16" V 7200 4200 50  0000 R CNN
-F 1 "0R" V 7000 4200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7030 4100 50  0001 C CNN
-F 3 "~" H 7100 4100 50  0001 C CNN
-F 4 "" H 7100 4100 50  0001 C CNN "Manufacturer PN"
-F 5 "0R" H 7100 4100 50  0001 C CNN "Description"
-F 6 "" H 7100 4100 50  0001 C CNN "OC"
-F 7 " " H 7100 4100 50  0001 C CNN "Manufacturer"
-	1    7100 4100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6950 3800 6800 3800
-Wire Wire Line
-	6800 3800 6800 3700
-$Comp
-L power:+3.3V #PWR02
-U 1 1 6163137D
-P 6800 3700
-F 0 "#PWR02" H 6800 3550 50  0001 C CNN
-F 1 "+3.3V" H 6815 3873 50  0000 C CNN
-F 2 "" H 6800 3700 50  0001 C CNN
-F 3 "" H 6800 3700 50  0001 C CNN
-	1    6800 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR01
-U 1 1 616322FD
-P 6450 3700
-F 0 "#PWR01" H 6450 3550 50  0001 C CNN
-F 1 "+5V" H 6465 3873 50  0000 C CNN
-F 2 "" H 6450 3700 50  0001 C CNN
-F 3 "" H 6450 3700 50  0001 C CNN
-	1    6450 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 3700 6450 4100
-Wire Wire Line
-	6450 4100 6950 4100
-Text Notes 6300 3400 0    50   ~ 0
-Select Voltage Source for LEDs
-Text Notes 6350 4350 0    50   ~ 0
-Only One Should be Mounted
-$Comp
 L KitchenTimer:SLR0564DBA4BD LED?
 U 1 1 6155D21D
 P 2050 1000
@@ -893,24 +801,6 @@ Wire Wire Line
 Text GLabel 8950 1950 0    50   Input ~ 0
 Latch
 $Comp
-L Device:R R?
-U 1 1 6160A68F
-P 9000 4550
-AR Path="/6151229C/6160A68F" Ref="R?"  Part="1" 
-AR Path="/6160A68F" Ref="R?"  Part="1" 
-AR Path="/62A7B28F/6160A68F" Ref="R55"  Part="1" 
-F 0 "R55" H 9070 4596 50  0000 L CNN
-F 1 "10k" H 9070 4505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8930 4550 50  0001 C CNN
-F 3 "~" H 9000 4550 50  0001 C CNN
-F 4 "RC1206JR-0710KL" H 9000 4550 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 1206 Resistor" H 9000 4550 50  0001 C CNN "Description"
-F 6 "C136460" H 9000 4550 50  0001 C CNN "LCSC Order Number"
-F 7 " YAGEO" H 9000 4550 50  0001 C CNN "Manufacturer"
-	1    9000 4550
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 6160A695
 P 9500 3400
@@ -938,8 +828,6 @@ Wire Wire Line
 	9100 4000 8950 4000
 Wire Wire Line
 	9100 4200 8950 4200
-Wire Wire Line
-	9100 4300 9000 4300
 Text GLabel 8950 3700 0    50   Input ~ 0
 Data
 Text GLabel 8950 3900 0    50   Input ~ 0
@@ -964,15 +852,6 @@ F 3 "" H 9500 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 4800 9500 4900
-Wire Wire Line
-	9000 4400 9000 4300
-Connection ~ 9000 4300
-Wire Wire Line
-	9000 4300 8950 4300
-Wire Wire Line
-	9500 4900 9000 4900
-Wire Wire Line
-	9000 4900 9000 4700
 Connection ~ 9500 4900
 Wire Wire Line
 	9500 4900 9500 5000
@@ -994,9 +873,6 @@ F 7 "Samsung Electro-Mechanics" H 8800 4900 50  0001 C CNN "Manufacturer"
 	1    8800 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8900 4900 9000 4900
-Connection ~ 9000 4900
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6160A6C1
@@ -1017,4 +893,8 @@ Wire Wire Line
 	8550 4900 8700 4900
 Text GLabel 8950 4200 0    50   Input ~ 0
 Latch
+Wire Wire Line
+	8950 4300 9100 4300
+Wire Wire Line
+	8900 4900 9500 4900
 $EndSCHEMATC
