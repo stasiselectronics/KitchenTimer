@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name KitchenTimer)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/KitchenTimer.lib)(options "")(descr ""))
+  (lib (name KitchenTimer)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/KitchenTimer.lib)(options "")(descr "Project Specific Library"))
+  (lib (name .[--Stasis.Symbol.Library)(type Legacy)(uri "${KIPRJMOD}/Libraries/Stasis Library/Symbols/.[--Stasis.Symbol.Library.lib")(options "")(descr "Submodule Repository for shared symbols"))
 )
