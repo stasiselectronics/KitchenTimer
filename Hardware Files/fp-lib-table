@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name KitchenTimer)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/KitchenTimer.pretty)(options "")(descr "Project Specific Footprint"))
   (lib (name .[--Stasis.Footprints.Library)(type KiCad)(uri "${KIPRJMOD}/Libraries/Stasis Library/Footprints/.[--Stasis.Footprints.Library.pretty")(options "")(descr "Submodule shared footprint library"))
+  (lib (name .[--Stasis.Footprints.Logos)(type KiCad)(uri "${KIPRJMOD}/Libraries/Stasis Library/Footprints/.[--Stasis.Footprints.Logos.pretty")(options "")(descr ""))
 )
