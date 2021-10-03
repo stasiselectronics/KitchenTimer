@@ -2206,13 +2206,7 @@ Wire Notes Line
 Text Notes 12400 6050 0    71   ~ 0
 LED Current Limiting Resistors
 Wire Notes Line
-	8900 8000 15450 8000
-Wire Notes Line
-	15400 7850 15400 5600
-Wire Notes Line
 	15400 5600 8850 5600
-Wire Notes Line
-	8850 5600 8850 7850
 Text Notes 8950 6950 0    50   ~ 0
 Power Controlled\nby MOSFETS
 Text Notes 0    -650 0    118  ~ 0
@@ -2618,12 +2612,12 @@ Connection ~ 8600 3000
 Wire Wire Line
 	8600 3000 8600 3150
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 6278B3F0
 P 12550 7900
-AR Path="/6278B3F0" Ref="R?"  Part="1" 
+AR Path="/6278B3F0" Ref="R20"  Part="1" 
 AR Path="/62A7B28F/6278B3F0" Ref="R?"  Part="1" 
-F 0 "R?" V 12450 8000 50  0000 C CNN
+F 0 "R20" V 12450 8000 50  0000 C CNN
 F 1 "10Ω" V 12450 7800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 12480 7900 50  0001 C CNN
 F 3 "~" H 12550 7900 50  0001 C CNN
@@ -2642,9 +2636,9 @@ L power:GND #PWR?
 U 1 1 627BAD96
 P 12850 7900
 AR Path="/6151229C/627BAD96" Ref="#PWR?"  Part="1" 
-AR Path="/627BAD96" Ref="#PWR?"  Part="1" 
+AR Path="/627BAD96" Ref="#PWR0107"  Part="1" 
 AR Path="/62A7B28F/627BAD96" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12850 7650 50  0001 C CNN
+F 0 "#PWR0107" H 12850 7650 50  0001 C CNN
 F 1 "GND" H 12855 7727 50  0000 C CNN
 F 2 "" H 12850 7900 50  0001 C CNN
 F 3 "" H 12850 7900 50  0001 C CNN
@@ -2657,4 +2651,10 @@ Wire Wire Line
 	11350 7900 11350 7100
 Wire Wire Line
 	10950 7100 11350 7100
+Wire Notes Line
+	8850 5600 8850 8000
+Wire Notes Line
+	15400 5600 15400 8000
+Wire Notes Line
+	15400 8000 8850 8000
 $EndSCHEMATC
