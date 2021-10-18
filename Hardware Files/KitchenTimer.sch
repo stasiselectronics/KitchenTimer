@@ -1813,7 +1813,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 3900 1550 50  0001 C
 F 4 "Diodes Incorporated" H 3900 1550 50  0001 C CNN "MF 1"
 F 5 "AZ1117H-3.3TRE1" H 3900 1550 50  0001 C CNN "MF 1 MPN"
 F 6 "" H 3900 1550 50  0001 C CNN "OC"
-F 7 "15V 1.25V @ 1A Fixed 3.3V SOT-223 Linear Voltage Regulators (LDO) ROHS" H 3900 1550 50  0001 C CNN "Description"
+F 7 "15V 1.25V @ 1A Fixed 3.3V SOT-223 (LDO)" H 3900 1550 50  0001 C CNN "Description"
 F 8 "C92517" H 3900 1550 50  0001 C CNN "MF 1 Ordering Code"
 	1    3900 1550
 	1    0    0    -1  
