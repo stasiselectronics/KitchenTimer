@@ -53,7 +53,7 @@ F 1 "Serial to Parallel Shift Register" H 2300 7200 50  0000 R CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2500 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2500 6600 50  0001 C CNN
 F 4 "" H 2500 6600 50  0001 C CNN "Manufacturer PN"
-F 5 "Shift Register SOIC 16" H 2500 6600 50  0001 C CNN "Description"
+F 5 "3.3V/5V Shift Register SOIC 16" H 2500 6600 50  0001 C CNN "Description"
 F 6 "" H 2500 6600 50  0001 C CNN "LCSC Order Number"
 F 7 "" H 2500 6600 50  0001 C CNN "Manufacturer"
 F 8 "" H 2500 6600 50  0001 C CNN "OC"
@@ -2592,7 +2592,7 @@ F 1 "Serial to Parallel Shift Register" H 2300 9450 50  0000 R CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2500 8850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2500 8850 50  0001 C CNN
 F 4 "" H 2500 8850 50  0001 C CNN "Manufacturer PN"
-F 5 "Shift Register SOIC 16" H 2500 8850 50  0001 C CNN "Description"
+F 5 "3.3V/5V Shift Register SOIC 16" H 2500 8850 50  0001 C CNN "Description"
 F 6 "" H 2500 8850 50  0001 C CNN "LCSC Order Number"
 F 7 "" H 2500 8850 50  0001 C CNN "Manufacturer"
 F 8 "" H 2500 8850 50  0001 C CNN "OC"
@@ -2702,4 +2702,6 @@ Wire Wire Line
 	8600 3000 8500 3050
 Wire Notes Line
 	10000 4950 10000 5200
+Text Notes 13600 7250 0    50   ~ 0
+Forward Voltage might differ,\nCurrent will go down if\nForward Voltage goes up
 $EndSCHEMATC
