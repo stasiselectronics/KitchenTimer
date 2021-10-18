@@ -2146,8 +2146,6 @@ Wire Notes Line
 Wire Notes Line
 	7300 750  6200 750 
 Wire Notes Line
-	10000 5250 10000 5000
-Wire Notes Line
 	12400 5950 14100 5950
 Wire Notes Line
 	14100 6100 14100 5950
@@ -2702,4 +2700,6 @@ Wire Wire Line
 	8950 3000 8850 3050
 Wire Wire Line
 	8600 3000 8500 3050
+Wire Notes Line
+	10000 4950 10000 5200
 $EndSCHEMATC
