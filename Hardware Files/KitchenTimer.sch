@@ -1255,55 +1255,39 @@ Wire Notes Line
 $Comp
 L Switch:SW_Push_Dual SW?
 U 1 1 615EBDF7
-P 15300 3200
+P 15350 3000
 AR Path="/6151229C/615EBDF7" Ref="SW?"  Part="1" 
 AR Path="/615EBDF7" Ref="SW4"  Part="1" 
 AR Path="/62A7BECE/615EBDF7" Ref="SW?"  Part="1" 
-F 0 "SW4" H 15300 3485 50  0000 C CNN
-F 1 "SPST" H 15300 3394 50  0000 C CNN
-F 2 ".[--Stasis.Footprints.Library:PTS645SK50SMTR92LFS" H 15300 3400 50  0001 C CNN
-F 3 "~" H 15300 3400 50  0001 C CNN
-F 4 "" H 15300 3200 50  0001 C CNN "Manufacturer PN"
-F 5 "" H 15300 3200 50  0001 C CNN "LCSC Order Number"
-F 6 "SPST 50mA @ 12VDC SMD, 6.0x6.0x5.0mm" H 15300 3200 50  0001 C CNN "Description"
-F 7 "" H 15300 3200 50  0001 C CNN "Manufacturer"
-F 8 "" H 15300 3200 50  0001 C CNN "OC"
-F 9 "HYP (Hongyuan Precision)" H 15300 3200 50  0001 C CNN "MF 1"
-F 10 "1TS005F-2500-5001" H 15300 3200 50  0001 C CNN "MF 1 MPN"
-F 11 "C255812" H 15300 3200 50  0001 C CNN "MF 1 Ordering Code"
-	1    15300 3200
+F 0 "SW4" H 15350 3285 50  0000 C CNN
+F 1 "SPST" H 15350 3194 50  0000 C CNN
+F 2 ".[--Stasis.Footprints.Library:PTS645SK50SMTR92LFS" H 15350 3200 50  0001 C CNN
+F 3 "~" H 15350 3200 50  0001 C CNN
+F 4 "" H 15350 3000 50  0001 C CNN "Manufacturer PN"
+F 5 "" H 15350 3000 50  0001 C CNN "LCSC Order Number"
+F 6 "SPST 50mA @ 12VDC SMD, 6.0x6.0x5.0mm" H 15350 3000 50  0001 C CNN "Description"
+F 7 "" H 15350 3000 50  0001 C CNN "Manufacturer"
+F 8 "" H 15350 3000 50  0001 C CNN "OC"
+F 9 "HYP (Hongyuan Precision)" H 15350 3000 50  0001 C CNN "MF 1"
+F 10 "1TS005F-2500-5001" H 15350 3000 50  0001 C CNN "MF 1 MPN"
+F 11 "C255812" H 15350 3000 50  0001 C CNN "MF 1 Ordering Code"
+	1    15350 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 615EBDFD
-P 15600 3500
+P 14950 3600
 AR Path="/6151229C/615EBDFD" Ref="#PWR?"  Part="1" 
 AR Path="/615EBDFD" Ref="#PWR027"  Part="1" 
 AR Path="/62A7BECE/615EBDFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR027" H 15600 3250 50  0001 C CNN
-F 1 "GND" H 15605 3327 50  0000 C CNN
-F 2 "" H 15600 3500 50  0001 C CNN
-F 3 "" H 15600 3500 50  0001 C CNN
-	1    15600 3500
+F 0 "#PWR027" H 14950 3350 50  0001 C CNN
+F 1 "GND" H 14955 3427 50  0000 C CNN
+F 2 "" H 14950 3600 50  0001 C CNN
+F 3 "" H 14950 3600 50  0001 C CNN
+	1    14950 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15600 3500 15600 3400
-Wire Wire Line
-	15600 3400 15500 3400
-Wire Wire Line
-	15500 3200 15600 3200
-Wire Wire Line
-	15600 3200 15600 3400
-Connection ~ 15600 3400
-Wire Wire Line
-	15100 3200 15000 3200
-Wire Wire Line
-	15000 3200 15000 3400
-Wire Wire Line
-	15000 3400 15100 3400
-Connection ~ 15000 3200
 $Comp
 L Device:C_Small C?
 U 1 1 615EBE10
@@ -1329,8 +1313,6 @@ $EndComp
 Wire Wire Line
 	14700 3300 14700 3200
 Wire Wire Line
-	14700 3200 15000 3200
-Wire Wire Line
 	14700 3500 14600 3550
 $Comp
 L power:GND #PWR?
@@ -1346,47 +1328,20 @@ F 3 "" H 14600 3550 50  0001 C CNN
 	1    14600 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 14700 3200
-$Comp
-L Device:R R?
-U 1 1 615EBE24
-P 14600 3050
-AR Path="/6151229C/615EBE24" Ref="R?"  Part="1" 
-AR Path="/615EBE24" Ref="R9"  Part="1" 
-AR Path="/62A7BECE/615EBE24" Ref="R?"  Part="1" 
-F 0 "R9" V 14400 2950 50  0000 L CNN
-F 1 "10k" V 14500 2950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14530 3050 50  0001 C CNN
-F 3 "~" H 14600 3050 50  0001 C CNN
-F 4 "" H 14600 3050 50  0001 C CNN "Manufacturer PN"
-F 5 "10k 0805 Resistor" H 14600 3050 50  0001 C CNN "Description"
-F 6 "" H 14600 3050 50  0001 C CNN "LCSC Order Number"
-F 7 "" H 14600 3050 50  0001 C CNN "Manufacturer"
-F 8 " YAGEO" H 14600 3050 50  0001 C CNN "MF 1"
-F 9 "RC0805FR-0710KL" H 14600 3050 50  0001 C CNN "MF 1 MPN"
-F 10 "" H 14600 3050 50  0001 C CNN "OC"
-F 11 "C84376" H 14600 3050 50  0001 C CNN "MF 1 Ordering Code"
-	1    14600 3050
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	14750 3050 15000 3050
 $Comp
 L power:+3.3V #PWR?
 U 1 1 615EBE2C
-P 14250 2850
+P 15650 2850
 AR Path="/6151229C/615EBE2C" Ref="#PWR?"  Part="1" 
 AR Path="/615EBE2C" Ref="#PWR024"  Part="1" 
 AR Path="/62A7BECE/615EBE2C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR024" H 14250 2700 50  0001 C CNN
-F 1 "+3.3V" H 14265 3023 50  0000 C CNN
-F 2 "" H 14250 2850 50  0001 C CNN
-F 3 "" H 14250 2850 50  0001 C CNN
-	1    14250 2850
+F 0 "#PWR024" H 15650 2700 50  0001 C CNN
+F 1 "+3.3V" H 15665 3023 50  0000 C CNN
+F 2 "" H 15650 2850 50  0001 C CNN
+F 3 "" H 15650 2850 50  0001 C CNN
+	1    15650 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15000 3050 15000 3200
 Wire Wire Line
 	14500 3200 14700 3200
 Text GLabel 14500 3200 0    50   Input ~ 0
@@ -2157,7 +2112,7 @@ Text Notes 8850 5500 0    50   ~ 0
 Common Anode\nOne Digit At a Time\nUse PWM on shift register's Enable Output pin to dim the display
 Text Notes 6250 3850 0    71   ~ 0
 Programming\nHeader
-Text Notes 15750 2700 2    71   ~ 0
+Text Notes 14750 2700 2    71   ~ 0
 Reset / Countdown
 Text Notes 750  950  0    50   ~ 0
 Low Drop Out Linear Regulator\nHigh Power Loss with Higher input Voltage
@@ -2185,10 +2140,6 @@ Wire Notes Line
 	1750 1050 6100 1050
 Text Notes 6200 950  0    50   ~ 0
 Programmed with UART\nNeeds to be forced into programming mode
-Wire Wire Line
-	14250 2850 14250 3050
-Wire Wire Line
-	14250 3050 14450 3050
 Wire Wire Line
 	12000 1550 12150 1550
 Text Notes 13450 1200 2    71   ~ 0
@@ -2704,4 +2655,51 @@ Wire Notes Line
 	10000 4950 10000 5200
 Text Notes 13600 7250 0    50   ~ 0
 Forward Voltage might differ,\nCurrent will go down if\nForward Voltage goes up
+$Comp
+L Device:R R?
+U 1 1 615EBE24
+P 15050 3400
+AR Path="/6151229C/615EBE24" Ref="R?"  Part="1" 
+AR Path="/615EBE24" Ref="R9"  Part="1" 
+AR Path="/62A7BECE/615EBE24" Ref="R?"  Part="1" 
+F 0 "R9" H 14950 3350 50  0000 R CNN
+F 1 "10k" H 14950 3450 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14980 3400 50  0001 C CNN
+F 3 "~" H 15050 3400 50  0001 C CNN
+F 4 "" H 15050 3400 50  0001 C CNN "Manufacturer PN"
+F 5 "10k 0805 Resistor" H 15050 3400 50  0001 C CNN "Description"
+F 6 "" H 15050 3400 50  0001 C CNN "LCSC Order Number"
+F 7 "" H 15050 3400 50  0001 C CNN "Manufacturer"
+F 8 " YAGEO" H 15050 3400 50  0001 C CNN "MF 1"
+F 9 "RC0805FR-0710KL" H 15050 3400 50  0001 C CNN "MF 1 MPN"
+F 10 "" H 15050 3400 50  0001 C CNN "OC"
+F 11 "C84376" H 15050 3400 50  0001 C CNN "MF 1 Ordering Code"
+	1    15050 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 3600 15050 3550
+Wire Wire Line
+	15050 3250 15050 3200
+Wire Wire Line
+	15050 3200 14700 3200
+Connection ~ 14700 3200
+Wire Wire Line
+	15650 2850 15650 3000
+Wire Wire Line
+	15650 3000 15550 3000
+Wire Wire Line
+	15650 3000 15650 3200
+Wire Wire Line
+	15650 3200 15550 3200
+Connection ~ 15650 3000
+Wire Wire Line
+	15150 3200 15050 3200
+Connection ~ 15050 3200
+Wire Wire Line
+	15150 3000 15050 3000
+Wire Wire Line
+	15050 3000 15050 3200
+Text Notes 11600 4350 0    71   ~ 0
+IO15 needs to have pull down to\nground to be able to download\nusing UART
 $EndSCHEMATC
